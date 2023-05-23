@@ -1,0 +1,6 @@
+datetime,device_cpu_rate%,user%,system%,idle%,package,pid,pid_cpu%
+2023-05-23 15-33-30,262,162,100,138,com.eg.android.AlipayGphone,,
+2023-05-23 15-33-35,276,173,103,124,com.eg.android.AlipayGphone,,
+2023-05-23 15-33-40,294,127,167,106,com.eg.android.AlipayGphone,,
+2023-05-23 15-33-45,294,153,141,103,com.eg.android.AlipayGphone,,
+2023-05-23 15-33-50,270,144,126,129,com.eg.android.AlipayGphone,,

@@ -1,0 +1,150 @@
+2023-05-23 15-28-28 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 3799550 Realtime: 3799550
+
+** MEMINFO in pid 11554 [com.divo.phone] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     3791     3768       12     1496     7680     6373     1306
+  Dalvik Heap      757      536      184       24     1685     1173      512
+ Dalvik Other      178      176        0        0                           
+        Stack       32       32        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     1548      128       12       47                           
+    .apk mmap      843        0        0        0                           
+    .ttf mmap       54        0        0        0                           
+    .dex mmap     1200        4       84        0                           
+    .oat mmap     1505        0        4        0                           
+    .art mmap      856      436       92        0                           
+   Other mmap      432        4        0        0                           
+      Unknown      512      500       12       17                           
+        TOTAL    13303     5584      408     1584     9365     7546     1818
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1064
+         Native Heap:     3768
+                Code:      232
+               Stack:       32
+            Graphics:        0
+       Private Other:      896
+              System:     7311
+ 
+               TOTAL:    13303       TOTAL SWAP PSS:     1584
+ 
+ Objects
+               Views:       42         ViewRootImpl:        1
+         AppContexts:        4           Activities:        1
+              Assets:        3        AssetManagers:        3
+       Local Binders:       20        Proxy Binders:       18
+       Parcel memory:        5         Parcel count:       21
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+
+2023-05-23 15-28-46 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 3817877 Realtime: 3817877
+
+** MEMINFO in pid 11554 [com.divo.phone] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap      880      880        0     4165     7680     6070     1609
+  Dalvik Heap      680      464      172       25     1597     1085      512
+ Dalvik Other      186      184        0        0                           
+        Stack       32       32        0        0                           
+       Ashmem        2        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     1539      128       12       49                           
+    .apk mmap      896        0       36        0                           
+    .ttf mmap       47        0        0        0                           
+    .dex mmap     1144        4       48        0                           
+    .oat mmap     1465        0        4        0                           
+    .art mmap      865      436       88        1                           
+   Other mmap      408        4        0        0                           
+      Unknown      308      308        0      227                           
+        TOTAL    12928     2440      368     4467     9277     7155     2121
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:      988
+         Native Heap:      880
+                Code:      232
+               Stack:       32
+            Graphics:        0
+       Private Other:      676
+              System:    10120
+ 
+               TOTAL:    12928       TOTAL SWAP PSS:     4467
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        3           Activities:        0
+              Assets:        3        AssetManagers:        2
+       Local Binders:       19        Proxy Binders:       16
+       Parcel memory:        5         Parcel count:       22
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+
+2023-05-23 15-28-51 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 3822789 Realtime: 3822789
+
+** MEMINFO in pid 11554 [com.divo.phone] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     2443     2296      132     2993     7680     6706      973
+  Dalvik Heap      743      528      172       25     1684     1188      496
+ Dalvik Other      206      204        0        0                           
+        Stack       32       32        0        0                           
+       Ashmem        4        0        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap     1538      128       12       49                           
+    .apk mmap      878        0        0        0                           
+    .ttf mmap       47        0        0        0                           
+    .dex mmap     1142        4       48        0                           
+    .oat mmap     1462        0        4        0                           
+    .art mmap      865      436       88        1                           
+   Other mmap      408        4        0        0                           
+      Unknown      476      436       40       66                           
+        TOTAL    13387     4068      504     3134     9364     7894     1469
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     1052
+         Native Heap:     2296
+                Code:      196
+               Stack:       32
+            Graphics:        0
+       Private Other:      996
+              System:     8815
+ 
+               TOTAL:    13387       TOTAL SWAP PSS:     3134
+ 
+ Objects
+               Views:       42         ViewRootImpl:        1
+         AppContexts:        4           Activities:        1
+              Assets:        3        AssetManagers:        3
+       Local Binders:       23        Proxy Binders:       18
+       Parcel memory:        6         Parcel count:       26
+    Death Recipients:        0      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+

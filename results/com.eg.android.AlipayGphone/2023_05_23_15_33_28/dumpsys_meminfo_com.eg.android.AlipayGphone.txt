@@ -1,0 +1,9 @@
+2023-05-23 15-33-29 dumpsys meminfo package info:
+No process found for: com.eg.android.AlipayGphone
+
+2023-05-23 15-33-44 dumpsys meminfo package info:
+No process found for: com.eg.android.AlipayGphone
+
+2023-05-23 15-33-49 dumpsys meminfo package info:
+No process found for: com.eg.android.AlipayGphone
+

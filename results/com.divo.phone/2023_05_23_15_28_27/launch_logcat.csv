@@ -1,0 +1,3 @@
+datetime,packagenme/activity,this_time(s),total_time(s),launchtype
+2023-05-23 15-28-41,com.yingyonghui.market/.ui.MainActivity,1.13,1.13,normal launch
+2023-05-23 15-28-49,com.divo.phone/.MainActivity,0.15,0.15,normal launch

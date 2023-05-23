@@ -1,0 +1,100 @@
+device serialnum:78309549427449
+device model:SPRD S10
+test package:com.eg.android.AlipayGphone
+system version:8.1.0
+test package ver:Activity Resolver Table:
+  Schemes:
+      alipays:
+        1850582 com.eg.android.AlipayGphone/com.alipay.watch.ui.MainActivity filter 51fc4d6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "alipays"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        1850582 com.eg.android.AlipayGphone/com.alipay.watch.ui.MainActivity filter 3f80098
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.google.android.wearable.localedition.action.PAY:
+        1850582 com.eg.android.AlipayGphone/com.alipay.watch.ui.MainActivity filter e56c0f1
+          Action: "com.google.android.wearable.localedition.action.PAY"
+          Category: "android.intent.category.DEFAULT"
+
+Key Set Manager:
+  [com.eg.android.AlipayGphone]
+      Signing KeySets: 12
+
+Packages:
+  Package [com.eg.android.AlipayGphone] (1dd2493):
+    userId=10071
+    pkg=Package{8ff8cd0 com.eg.android.AlipayGphone}
+    codePath=/system/preloadapp/ZhiFuBao
+    resourcePath=/system/preloadapp/ZhiFuBao
+    legacyNativeLibraryDir=/data/app-lib/ZhiFuBao
+    primaryCpuAbi=armeabi
+    secondaryCpuAbi=null
+    versionCode=137 minSdk=19 targetSdk=28
+    versionName=10.3.4.200922
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=ApplicationInfo{a9684c9 com.eg.android.AlipayGphone}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ]
+    dataDir=/data/user/0/com.eg.android.AlipayGphone
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2022-07-19 13:50:30
+    firstInstallTime=2022-07-19 13:50:30
+    lastUpdateTime=2022-07-19 13:50:30
+    signatures=PackageSignatures{b01f7ce [3f294bc1]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.WAKE_LOCK
+      android.permission.GET_TASKS
+      android.permission.CAMERA
+      android.permission.VIBRATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.SYSTEM_ALERT_WINDOW
+    install permissions:
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=-4294965162 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+    overlay paths:
+      /vendor/overlay/framework-res__auto_generated_rro.apk
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=true
+        android.permission.READ_PHONE_STATE: granted=true
+        android.permission.CAMERA: granted=true
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true
+
+Package Changes:
+  Sequence number=0
+
+
+Dexopt state:
+  [com.eg.android.AlipayGphone]
+    path: /system/preloadapp/ZhiFuBao/ZhiFuBao.apk
+      arm: /system/preloadapp/ZhiFuBao/oat/arm/ZhiFuBao.odex[status=kOatUpToDate, compilation_filter=quicken]
+
+
+Compiler stats:
+  [com.eg.android.AlipayGphone]
+    (No recorded stats)
+test cost time::0.01h

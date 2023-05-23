@@ -1,0 +1,1432 @@
+2023-05-23 15-28-28 top info:
+Tasks: 276 total,   1 running, 273 sleeping,   0 stopped,   1 zombie
+Mem:    897920k total,   857264k used,    40656k free,     1664k buffers
+Swap:   819196k total,   151604k used,   667592k free,   511016k cached
+400%cpu 203%user   0%nice  91%sys 106%idle   0%iow   0%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS                       
+  598 system       18  -2 1.1G 160M 143M S  132  18.2   3:43.22 system_server
+15551 shell        20   0 5.3M 2.6M 2.2M R 23.5   0.2   0:00.10 top -b -n 1 -d 5
+  324 shell        20   0  21M 1.4M 0.9M S  8.8   0.1   0:52.28 adbd --root_seclabel=u:r:su:s0
+  799 u0_a22       20   0 1.1G 142M 128M S  5.8  16.2   1:54.82 com.android.systemui
+11554 system       20   0 1.0G  98M  91M S  2.9  11.2   0:12.29 com.divo.phone
+  279 system       -2 -20  77M  19M  17M S  2.9   2.1   3:25.07 surfaceflinger
+  264 system       20   0 8.1M 2.8M 2.5M S  2.9   0.3   0:59.68 android.hardware.sensors@1.0-service
+   28 root         RT   0    0    0    0 S  2.9   0.0   0:08.44 [irq/21-70700000]
+15539 shell        20   0  10M 3.6M 3.1M S  0.0   0.4   0:00.08 dumpsys meminfo
+14604 shell        20   0 4.6M 2.5M 2.1M S  0.0   0.2   0:00.64 logcat -v threadtime -b all
+13514 root         20   0    0    0    0 S  0.0   0.0   0:02.85 [kworker/1:1]
+11784 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11770 u0_a2        20   0 1.0G  79M  72M S  0.0   9.0   0:05.23 android.process.acore
+11750 system       10 -10 1.0G  99M  89M S  0.0  11.2   0:01.14 com.jx.watchos.contact
+11593 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:5]
+11583 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11478 root          0 -20    0    0    0 S  0.0   0.0   0:00.24 [kworker/u9:2]
+11109 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:4]
+10971 root         20   0    0    0    0 S  0.0   0.0   0:00.05 [kworker/0:2]
+10923 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0]
+ 9840 root         20   0    0    0    0 S  0.0   0.0   0:00.04 [kworker/u8:2]
+ 9839 root         20   0    0    0    0 S  0.0   0.0   0:00.37 [kworker/u8:0]
+ 6348 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 6327 u0_a21       20   0 1.0G  96M  90M S  0.0  10.9   0:00.40 com.android.packageinstaller
+ 5904 u0_a82       20   0    0    0    0 Z  0.0   0.0   0:00.01 [ZIDThreadPoolEx]
+ 5857 system       20   0 1.0G  68M  63M S  0.0   7.6   0:03.72 com.abupdate.fota_demo_iot
+ 5447 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 5333 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 5306 u0_a82       20   0 1.3G 205M 190M S  0.0  23.3   2:08.84 com.antutu.ABenchMark
+ 3133 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:0]
+ 3132 root         20   0    0    0    0 S  0.0   0.0   0:00.08 [kworker/0:0]
+ 1999 shell        20   0 852M  53M  49M S  0.0   6.0   0:00.89 app_process / com.genymobile.scrcpy.CleanUp AAAAAP////8CAAAA
+ 1981 shell        20   0 868M  68M  59M S  0.0   7.8   0:27.19 app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+ 1979 shell        20   0 4.3M 2.2M 1.8M S  0.0   0.2   0:00.01 sh -c CLASSPATH=/data/local/tmp/scrcpy-server.jar app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+ 1932 system       20   0 1.0G  50M  48M S  0.0   5.7   0:00.08 com.sprd.bootres
+ 1911 u0_a2        20   0 1.0G  59M  57M S  0.0   6.7   0:00.13 com.android.dialer
+ 1895 system       20   0 1.0G  54M  52M S  0.0   6.1   0:00.10 com.sprd.engineermode
+ 1859 root         20   0    0    0    0 S  0.0   0.0   0:00.88 [kworker/u8:1]
+ 1855 root          0 -20    0    0    0 S  0.0   0.0   0:02.60 [kworker/u9:0]
+ 1756 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1737 u0_a83       20   0 1.1G  98M  95M S  0.0  11.1   2:57.39 com.andromeda.androbench2
+ 1710 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:2]
+ 1338 u0_a9        20   0 1.0G  74M  70M S  0.0   8.4   0:06.38 android.process.media
+ 1323 u0_a72       20   0 1.0G 102M  86M S  0.0  11.6   0:02.35 com.jx.inputmethod.pinyin
+ 1215 system       20   0 1.1G 122M 105M S  0.0  13.8   2:06.93 com.jx.launcher
+ 1188 u0_a66       20   0 1.0G  50M  46M S  0.0   5.7   0:00.08 com.android.modemnotifier
+ 1169 system       20   0 1.0G  65M  60M S  0.0   7.3   0:00.21 com.spreadtrum.vce
+ 1163 system       20   0 1.0G  59M  54M S  0.0   6.7   0:00.19 com.sprd.applock
+ 1146 system       20   0 1.0G  57M  55M S  0.0   6.5   0:00.16 com.android.deskclock
+ 1124 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1045 system       20   0 1.0G  70M  66M S  0.0   8.0   0:00.60 com.spreadtrum.vowifi
+ 1016 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  963 system       20   0 1.1G 127M 122M S  0.0  14.4   0:07.52 com.android.settings
+  906 wifi         20   0  11M 6.2M 5.9M S  0.0   0.7   0:00.26 wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf -m/data/misc/wifi/p2p_supplicant.conf -e/data/misc/wifi/entropy.bin -g@android:wpa_wlan0 -dd
+  887 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [SPRDWL_TX_QUEUE]
+  767 radio        20   0 1.1G 101M  94M S  0.0  11.4   0:10.03 com.android.phone
+  613 root         20   0  12M 2.0M 2.0M S  0.0   0.2   0:00.06 cp_diskserver
+  612 radio        20   0  29M 4.6M 4.3M S  0.0   0.5   0:00.42 sprdrild
+  400 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  399 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  349 root         20   0 4.3M 1.0M 928K S  0.0   0.1   0:00.41 sh /system/bin/ip_monitor.sh
+  348 root         20   0 4.4M 2.0M 1.9M S  0.0   0.2   0:00.06 ip monitor
+  337 root          0 -20    0    0    0 S  0.0   0.0   0:00.74 [kworker/1:1H]
+  333 root         20   0 5.1M 192K 188K S  0.0   0.0   0:00.00 srtd
+  323 system       20   0  19M 7.0M 6.9M S  0.0   0.8   0:00.68 connmgr
+  322 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f ns -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  321 system       20   0  13M 4.0M 3.9M S  0.0   0.4   0:00.13 android.hardware.biometrics.fingerprint@2.1-service
+  320 tombstoned   20   0 4.4M 1.9M 1.9M S  0.0   0.2   0:00.01 tombstoned
+  319 system       20   0  13M 4.5M 4.4M S  0.0   0.5   0:00.10 gatekeeperd /data/misc/gatekeeper
+  318 system       20   0  60M  12M  12M S  0.0   1.3   0:01.12 vendor.sprd.hardware.gnss@1.0-service
+  317 system       20   0  18M 5.1M 4.8M S  0.0   0.5   0:04.77 thermald
+  316 shell        20   0 8.6M 2.0M 1.9M S  0.0   0.2   0:00.02 slogmodem
+  315 system       20   0 8.3M 1.9M 1.9M S  0.0   0.2   0:00.02 refnotify
+  314 root         20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 ext_data
+  313 mediacodec   20   0  43M  11M 8.5M S  0.0   1.2   0:35.76 media.codec hw/android.hardware.media.omx@1.0-service
+  312 wifi         20   0  13M 4.3M 4.1M S  0.0   0.4   0:00.67 wificond
+  311 root         30  10  13M 3.7M 3.5M S  0.0   0.4   0:00.14 storaged
+  309 root         20   0    0    0    0 S  0.0   0.0   0:13.38 [kworker/1:2]
+  310 root         20   0 4.4M 1.8M 1.8M S  0.0   0.2   0:00.02 ju_ipsec_server
+  308 system       20   0 8.6M 2.8M 2.8M S  0.0   0.3   0:00.06 phasecheckserver
+  307 media        20   0  47M  12M  11M S  0.0   1.3   0:00.60 mediaserver
+  306 media        20   0  17M 7.1M 7.0M S  0.0   0.8   0:00.22 media.metrics diametrics
+  302 root          0 -20    0    0    0 S  0.0   0.0   0:00.66 [kworker/2:1H]
+  301 mediaex      20   0  46M  11M  11M S  0.0   1.2   0:00.43 media.extractor aextractor
+  300 media        20   0  13M 4.8M 4.8M S  0.0   0.5   0:00.12 mediadrmserver
+  299 root         20   0 6.7M 2.4M 2.4M S  0.0   0.2   0:00.03 log_service
+  298 keystore     20   0  14M 5.0M 4.7M S  0.0   0.5   0:00.15 keystore /data/misc/keystore
+  297 root         20   0 4.3M 1.8M 1.8M S  0.0   0.2   0:00.01 sh /system/bin/ip_monitor.sh
+  296 root         20   0  14M 4.1M 3.9M S  0.0   0.4   0:01.31 installd
+  295 root         20   0 4.5M 2.0M 2.0M S  0.0   0.2   0:00.02 ims_bridged
+  294 drm          20   0  38M  16M  16M S  0.0   1.8   0:00.82 drmserver
+  293 cameraserver 20   0  23M 8.6M 8.4M S  0.0   0.9   0:00.33 cameraserver
+  292 audioserver  20   0  32M 8.6M 8.1M S  0.0   0.9   0:00.67 audioserver
+  291 root         20   0 4.8M 1.9M 1.9M S  0.0   0.2   0:00.01 srtd
+  289 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 ip6tables-restore --noflush -w -v
+  288 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 iptables-restore --noflush -w -v
+  285 system       20   0 5.1M 2.0M 2.0M S  0.0   0.2   0:00.02 tsupplicant firmware
+  284 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f rpmb -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  283 system       20   0 7.5M 1.7M 1.7M S  0.0   0.1   0:00.03 modemd
+  282 system       20   0  10M 1.7M 1.7M S  0.0   0.2   0:00.15 modem_control
+  281 system       20   0 6.4M 2.0M 1.8M S  0.0   0.2   0:00.08 gnss_download
+  280 root         20   0  13M 3.7M 3.7M S  0.0   0.4   0:00.10 thermalserviced
+  278 root         20   0  12M 3.2M 3.2M S  0.0   0.3   0:00.07 performancemanager
+  277 root         -2   0 5.8M 3.3M 2.2M S  0.0   0.3   0:00.10 lmkd
+  276 root          0 -20  29M 8.2M 8.2M S  0.0   0.9   0:00.56 engpc -p l -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+  275 system       20   0 6.4M 1.6M 1.6M S  0.0   0.1   0:00.12 gpsd
+  274 root         20   0  11M 3.8M 3.6M S  0.0   0.4   0:00.34 healthd
+  273 system       20   0 7.2M 2.9M 2.7M S  0.0   0.3   0:00.05 vendor.sprd.hardware.thermal@1.0-service
+  272 system       20   0  16M 4.1M 3.8M S  0.0   0.4   0:02.31 vendor.sprd.hardware.power@2.0-service
+  271 system       20   0 8.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.log@1.0-service
+  270 system       20   0 7.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.ifaa@1.0-service
+  269 system       20   0  12M 3.1M 3.1M S  0.0   0.3   0:00.04 vendor.sprd.hardware.face@1.0-service
+  268 system       20   0 7.1M 2.7M 2.7M S  0.0   0.3   0:00.04 vendor.sprd.hardware.connmgr@1.0-service
+  267 root         20   0  10M 3.7M 3.5M S  0.0   0.4   0:01.36 android.hardware.wifi@1.0-service
+  266 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.04 android.hardware.vibrator@1.0-service
+  265 system       20   0 8.2M 2.8M 2.7M S  0.0   0.3   0:00.10 android.hardware.usb@1.1-service
+  263 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:01.34 android.hardware.memtrack@1.0-service
+  262 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.light@2.0-service
+  261 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.health@1.0-service
+  260 system       -3  -8  65M  13M  13M S  0.0   1.5   0:20.73 android.hardware.graphics.composer@2.1-service
+  259 system       20   0  10M 3.4M 3.2M S  0.0   0.3   0:00.59 android.hardware.graphics.allocator@2.0-service
+  258 system       20   0 7.0M 2.4M 2.4M S  0.0   0.2   0:00.04 android.hardware.gatekeeper@1.0-service
+  257 system       20   0 6.9M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.dumpstate@1.0-service
+  256 media        20   0  13M 4.7M 4.7M S  0.0   0.5   0:00.12 android.hardware.drm@1.0-service
+  255 system       20   0 9.1M 2.8M 2.6M S  0.0   0.3   0:00.04 android.hardware.configstore@1.0-service
+  254 media        20   0  12M 3.8M 3.8M S  0.0   0.4   0:00.10 android.hardware.cas@1.0-service
+  253 cameraserver 20   0  37M 7.2M 7.2M S  0.0   0.8   0:00.28 android.hardware.camera.provider@2.4-service
+  252 bluetooth    20   0 7.0M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.bluetooth@1.0-service
+  251 audioserver  20   0  28M 6.1M 5.9M S  0.0   0.6   0:00.66 android.hardware.audio@2.0-service
+  250 system       20   0 6.9M 2.9M 2.7M S  0.0   0.3   0:00.08 android.hidl.allocator@1.0-service
+  247 root         20   0 0.9G 106M 102M S  0.0  12.1   0:02.79 zygote
+  246 root         20   0  31M 4.8M 4.4M S  0.0   0.5   0:01.00 netd
+  236 root         20   0  15M 4.8M 4.7M S  0.0   0.5   0:00.17 vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  235 system       20   0 8.1M 3.0M 2.8M S  0.0   0.3   0:00.05 android.hardware.keymaster@3.0-service
+  234 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kauditd]
+  230 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_job_fault]
+  226 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [gpu_dfs]
+  225 system       20   0 5.2M 2.0M 2.0M S  0.0   0.2   0:00.02 vndservicemanager /dev/vndbinder
+  224 system       20   0 8.4M 4.1M 3.7M S  0.0   0.4   0:00.38 hwservicemanager
+  223 system       20   0 5.4M 2.3M 2.1M S  0.0   0.2   0:10.15 servicemanager
+  222 logd         30  10  14M 2.8M 2.0M S  0.0   0.3   0:16.66 logd
+  221 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  220 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p1-]
+  218 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  217 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p29]
+  213 root         20   0    0    0    0 S  0.0   0.0   0:00.19 [f2fs_gc-259:17]
+  212 root         20   0    0    0    0 S  0.0   0.0   0:00.73 [f2fs_discard-25]
+  211 root         20   0    0    0    0 S  0.0   0.0   0:01.70 [f2fs_flush-259:]
+  209 root          0 -20    0    0    0 S  0.0   0.0   0:00.81 [kworker/0:1H]
+  206 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [VserTestWq]
+  205 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [f_mtp]
+  200 root         20   0 2.8M 1.1M 900K S  0.0   0.1   0:00.41 ueventd
+  199 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  198 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-1-8]
+  197 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  196 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  195 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  194 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  193 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  192 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  190 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  189 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-0-8]
+  186 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  185 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  184 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  183 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  182 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  181 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  179 root          0 -20    0    0    0 S  0.0   0.0   0:00.67 [kworker/3:1H]
+  178 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_reg_dum]
+  177 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_detect_]
+  176 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_button]
+  175 root         20   0    0    0    0 S  0.0   0.0   0:01.66 [kworker/2:3]
+  174 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:2]
+  173 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdbat_monitor]
+  172 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-12]
+  171 root         RT   0    0    0    0 S  0.0   0.0   0:00.04 [sbuf-3-11]
+  170 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-5]
+  169 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-25]
+  168 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-24]
+  167 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-20]
+  166 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-19]
+  165 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-18]
+  164 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-9]
+  163 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-8]
+  162 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-7]
+  161 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [deferwq]
+  152 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-ctrl[5-3]]
+  151 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-3]
+  150 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-data[5-2]]
+  149 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-2]
+  148 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ipv6_addrconf]
+  146 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [binder]
+  144 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0rpmb]
+  143 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  142 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot1]
+  141 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  140 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot0]
+  139 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  138 root         -2   0    0    0    0 S  0.0   0.0   0:30.32 [mmcqd/0]
+  137 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  136 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [swcnblk-3-9]
+  135 root         RT   0    0    0    0 S  0.0   0.0   0:03.83 [swcnblk-3-8]
+  134 root         RT   0    0    0    0 S  0.0   0.0   0:00.14 [swcnblk-3-7]
+  133 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-5]
+  132 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-4-4]
+  131 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-4]
+  130 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [sbuf-5-6]
+  129 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-21]
+  128 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-4]
+  127 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-6]
+  126 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-5]
+  125 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/69-20300000]
+  123 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sprdhotplug]
+  122 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [dm_bufio_cache]
+  121 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [watchdog_feeder]
+  117 root         20   0    0    0    0 S  0.0   0.0   0:00.69 [Betterlife_ts]
+  116 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [uether]
+  115 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-151]
+  114 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-16]
+  113 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-15]
+  112 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-14]
+  111 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-131]
+  110 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-17]
+  109 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-12]
+  108 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-11]
+  107 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-14]
+  106 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-10]
+  105 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  104 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-13]
+  103 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-10]
+  102 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  101 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  100 root         20   0    0    0    0 S  0.0   0.0   0:19.50 [sprd-adf-dev]
+   67 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [fsnotify_mark]
+   66 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [vmstat]
+   65 root         20   0    0    0    0 S  0.0   0.0   0:02.97 [kswapd0]
+   46 root         RT   0    0    0    0 S  0.0   0.0   0:12.46 [cfinteractive]
+   45 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdfgu_monitor]
+   44 root         RT   0    0    0    0 S  0.0   0.0   0:00.05 [irq/57-spi5.0]
+   43 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [cfg80211]
+   42 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [devfreq_wq]
+   41 root         20   0    0    0    0 D  0.0   0.0   0:00.00 [mbox-send-threa]
+   40 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [carveout_fb]
+   39 root         20   0    0    0    0 S  0.0   0.0   0:00.06 [system]
+   38 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi5]
+   37 root         20   0    0    0    0 S  0.0   0.0   0:00.92 [spi1]
+   36 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi0]
+   35 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [sprd_deep_print]
+   34 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kblockd]
+   33 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   32 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [crypto]
+   31 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [writeback]
+   30 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/23-70900000]
+   29 root         RT   0    0    0    0 S  0.0   0.0   0:00.15 [irq/22-70800000]
+   26 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/20-70500000]
+   25 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [perf]
+   24 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [suspend_sys_syn]
+   23 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kdevtmpfs]
+   22 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/3:0H]
+   20 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [ksoftirqd/3]
+   19 root         RT   0    0    0    0 S  0.0   0.0   0:00.01 [migration/3]
+   18 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:0H]
+   16 root         20   0    0    0    0 S  0.0   0.0   0:00.14 [ksoftirqd/2]
+   15 root         RT   0    0    0    0 S  0.0   0.0   0:00.02 [migration/2]
+   14 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0H]
+   12 root         20   0    0    0    0 S  0.0   0.0   0:00.23 [ksoftirqd/1]
+   11 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/1]
+   10 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/0]
+    9 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_bh]
+    8 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_sched]
+    7 root         20   0    0    0    0 S  0.0   0.0   0:05.33 [rcu_preempt]
+    5 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:0H]
+    3 root         20   0    0    0    0 S  0.0   0.0   0:00.15 [ksoftirqd/0]
+    2 root         20   0    0    0    0 S  0.0   0.0   0:00.01 [kthreadd]
+    1 root         20   0 9.3M 1.4M 1.1M S  0.0   0.1   0:01.89 init
+
+
+2023-05-23 15-28-33 top info:
+Tasks: 277 total,   3 running, 272 sleeping,   0 stopped,   1 zombie
+Mem:    897920k total,   855048k used,    42872k free,     1664k buffers
+Swap:   819196k total,   149500k used,   669696k free,   511012k cached
+400%cpu 126%user   6%nice  88%sys 179%idle   0%iow   0%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS                       
+  324 shell        20   0  22M 1.4M 0.9M S 32.3   0.1   0:53.13 adbd --root_seclabel=u:r:su:s0
+ 1215 system       10 -10 1.1G 124M 105M R 26.4  14.0   2:07.24 com.jx.launcher
+15642 shell        20   0 5.3M 2.5M 2.1M R 23.5   0.2   0:00.11 top -b -n 1 -d 5
+  279 system       -2 -20  77M  20M  17M S 20.5   2.2   3:25.76 surfaceflinger
+  598 system       18  -2 1.1G 159M 143M S  8.8  18.1   3:47.99 system_server
+ 1981 shell        20   0 868M  68M  59M S  5.8   7.8   0:27.33 app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+  313 mediacodec   20   0  43M  11M 8.5M S  5.8   1.2   0:35.94 media.codec hw/android.hardware.media.omx@1.0-service
+  222 logd         30  10  15M 2.7M 2.0M S  5.8   0.3   0:16.86 logd
+15626 root         20   0    0    0    0 R  2.9   0.0   0:00.00 [kworker/1:3]
+15605 shell        20   0 4.6M 2.5M 2.0M S  2.9   0.2   0:00.13 logcat -v threadtime -b all
+14604 shell        20   0 4.6M 2.5M 2.1M S  2.9   0.2   0:00.74 logcat -v threadtime -b all
+11478 root          0 -20    0    0    0 S  2.9   0.0   0:00.25 [kworker/u9:2]
+ 5306 u0_a82       20   0 1.3G 205M 190M S  2.9  23.3   2:08.92 com.antutu.ABenchMark
+  799 u0_a22       20   0 1.1G 143M 128M S  2.9  16.2   1:55.10 com.android.systemui
+  264 system       20   0 8.1M 2.8M 2.5M S  2.9   0.3   0:59.84 android.hardware.sensors@1.0-service
+  260 system       -3  -8  64M  13M  13M S  2.9   1.5   0:20.83 android.hardware.graphics.composer@2.1-service
+  100 root         20   0    0    0    0 S  2.9   0.0   0:19.56 [sprd-adf-dev]
+   29 root         RT   0    0    0    0 S  2.9   0.0   0:00.15 [irq/22-70800000]
+    7 root         20   0    0    0    0 S  2.9   0.0   0:05.34 [rcu_preempt]
+15615 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:1]
+15613 root          0 -20    0    0    0 S  0.0   0.0   0:00.01 [kworker/u9:1]
+13514 root         20   0    0    0    0 S  0.0   0.0   0:02.88 [kworker/1:1]
+11784 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11770 u0_a2        20   0 1.0G  79M  72M S  0.0   9.0   0:05.23 android.process.acore
+11750 system       20   0 1.0G  99M  89M S  0.0  11.2   0:01.15 com.jx.watchos.contact
+11593 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:5]
+11583 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11554 system       20   0 1.0G  99M  91M S  0.0  11.2   0:12.49 com.divo.phone
+11109 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:4]
+10971 root         20   0    0    0    0 S  0.0   0.0   0:00.05 [kworker/0:2]
+10923 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0]
+ 9840 root         20   0    0    0    0 S  0.0   0.0   0:00.04 [kworker/u8:2]
+ 9839 root         20   0    0    0    0 S  0.0   0.0   0:00.37 [kworker/u8:0]
+ 6348 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 6327 u0_a21       20   0 1.0G  96M  90M S  0.0  10.9   0:00.40 com.android.packageinstaller
+ 5904 u0_a82       20   0    0    0    0 Z  0.0   0.0   0:00.01 [ZIDThreadPoolEx]
+ 5857 system       20   0 1.0G  68M  63M S  0.0   7.6   0:03.72 com.abupdate.fota_demo_iot
+ 5447 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 5333 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 3133 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:0]
+ 3132 root         20   0    0    0    0 S  0.0   0.0   0:00.08 [kworker/0:0]
+ 1999 shell        20   0 852M  53M  49M S  0.0   6.0   0:00.89 app_process / com.genymobile.scrcpy.CleanUp AAAAAP////8CAAAA
+ 1979 shell        20   0 4.3M 2.2M 1.8M S  0.0   0.2   0:00.01 sh -c CLASSPATH=/data/local/tmp/scrcpy-server.jar app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+ 1911 u0_a2        20   0 1.0G  59M  57M S  0.0   6.7   0:00.13 com.android.dialer
+ 1859 root         20   0    0    0    0 S  0.0   0.0   0:00.88 [kworker/u8:1]
+ 1855 root          0 -20    0    0    0 S  0.0   0.0   0:02.61 [kworker/u9:0]
+ 1756 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1737 u0_a83       20   0 1.1G  98M  95M S  0.0  11.1   2:57.39 com.andromeda.androbench2
+ 1710 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:2]
+ 1338 u0_a9        20   0 1.0G  74M  70M S  0.0   8.4   0:06.38 android.process.media
+ 1323 u0_a72       20   0 1.0G 102M  86M S  0.0  11.6   0:02.36 com.jx.inputmethod.pinyin
+ 1188 u0_a66       20   0 1.0G  50M  46M S  0.0   5.7   0:00.08 com.android.modemnotifier
+ 1169 system       20   0 1.0G  65M  60M S  0.0   7.3   0:00.21 com.spreadtrum.vce
+ 1163 system       20   0 1.0G  59M  54M S  0.0   6.7   0:00.19 com.sprd.applock
+ 1146 system       20   0 1.0G  57M  55M S  0.0   6.5   0:00.16 com.android.deskclock
+ 1124 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1045 system       20   0 1.0G  70M  66M S  0.0   8.0   0:00.60 com.spreadtrum.vowifi
+ 1016 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  963 system       20   0 1.1G 127M 122M S  0.0  14.4   0:07.52 com.android.settings
+  906 wifi         20   0  11M 6.2M 5.9M S  0.0   0.7   0:00.26 wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf -m/data/misc/wifi/p2p_supplicant.conf -e/data/misc/wifi/entropy.bin -g@android:wpa_wlan0 -dd
+  887 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [SPRDWL_TX_QUEUE]
+  767 radio        20   0 1.1G 101M  94M S  0.0  11.4   0:10.03 com.android.phone
+  613 root         20   0  12M 2.0M 2.0M S  0.0   0.2   0:00.06 cp_diskserver
+  612 radio        20   0  29M 4.6M 4.3M S  0.0   0.5   0:00.42 sprdrild
+  400 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  399 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  349 root         20   0 4.3M 1.0M 928K S  0.0   0.1   0:00.41 sh /system/bin/ip_monitor.sh
+  348 root         20   0 4.4M 2.0M 1.9M S  0.0   0.2   0:00.06 ip monitor
+  337 root          0 -20    0    0    0 S  0.0   0.0   0:00.74 [kworker/1:1H]
+  333 root         20   0 5.1M 192K 188K S  0.0   0.0   0:00.00 srtd
+  323 system       20   0  19M 7.0M 6.9M S  0.0   0.8   0:00.68 connmgr
+  322 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f ns -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  321 system       20   0  13M 4.0M 3.9M S  0.0   0.4   0:00.13 android.hardware.biometrics.fingerprint@2.1-service
+  320 tombstoned   20   0 4.4M 1.9M 1.9M S  0.0   0.2   0:00.01 tombstoned
+  319 system       20   0  13M 4.5M 4.4M S  0.0   0.5   0:00.10 gatekeeperd /data/misc/gatekeeper
+  318 system       20   0  60M  12M  12M S  0.0   1.3   0:01.12 vendor.sprd.hardware.gnss@1.0-service
+  317 system       20   0  18M 5.1M 4.8M S  0.0   0.5   0:04.77 thermald
+  316 shell        20   0 8.6M 2.0M 1.9M S  0.0   0.2   0:00.02 slogmodem
+  315 system       20   0 8.3M 1.9M 1.9M S  0.0   0.2   0:00.02 refnotify
+  314 root         20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 ext_data
+  312 wifi         20   0  13M 4.3M 4.1M S  0.0   0.4   0:00.67 wificond
+  311 root         30  10  13M 3.7M 3.5M S  0.0   0.4   0:00.14 storaged
+  309 root         20   0    0    0    0 S  0.0   0.0   0:13.38 [kworker/1:2]
+  310 root         20   0 4.4M 1.8M 1.8M S  0.0   0.2   0:00.02 ju_ipsec_server
+  308 system       20   0 8.6M 2.8M 2.8M S  0.0   0.3   0:00.06 phasecheckserver
+  307 media        20   0  47M  12M  11M S  0.0   1.3   0:00.60 mediaserver
+  306 media        20   0  17M 7.1M 7.0M S  0.0   0.8   0:00.22 media.metrics diametrics
+  302 root          0 -20    0    0    0 S  0.0   0.0   0:00.66 [kworker/2:1H]
+  301 mediaex      20   0  46M  11M  11M S  0.0   1.2   0:00.43 media.extractor aextractor
+  300 media        20   0  13M 4.8M 4.8M S  0.0   0.5   0:00.12 mediadrmserver
+  299 root         20   0 6.7M 2.4M 2.4M S  0.0   0.2   0:00.03 log_service
+  298 keystore     20   0  14M 5.0M 4.7M S  0.0   0.5   0:00.15 keystore /data/misc/keystore
+  297 root         20   0 4.3M 1.8M 1.8M S  0.0   0.2   0:00.01 sh /system/bin/ip_monitor.sh
+  296 root         20   0  14M 4.1M 3.9M S  0.0   0.4   0:01.31 installd
+  295 root         20   0 4.5M 2.0M 2.0M S  0.0   0.2   0:00.02 ims_bridged
+  294 drm          20   0  38M  16M  16M S  0.0   1.8   0:00.82 drmserver
+  293 cameraserver 20   0  23M 8.6M 8.4M S  0.0   0.9   0:00.33 cameraserver
+  292 audioserver  20   0  32M 8.6M 8.1M S  0.0   0.9   0:00.68 audioserver
+  291 root         20   0 4.8M 1.9M 1.9M S  0.0   0.2   0:00.01 srtd
+  289 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 ip6tables-restore --noflush -w -v
+  288 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 iptables-restore --noflush -w -v
+  285 system       20   0 5.1M 2.0M 2.0M S  0.0   0.2   0:00.02 tsupplicant firmware
+  284 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f rpmb -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  283 system       20   0 7.5M 1.7M 1.7M S  0.0   0.1   0:00.03 modemd
+  282 system       20   0  10M 1.7M 1.7M S  0.0   0.2   0:00.15 modem_control
+  281 system       20   0 6.4M 2.0M 1.8M S  0.0   0.2   0:00.08 gnss_download
+  280 root         20   0  13M 3.7M 3.7M S  0.0   0.4   0:00.10 thermalserviced
+  278 root         20   0  12M 3.2M 3.2M S  0.0   0.3   0:00.07 performancemanager
+  277 root         -2   0 5.8M 3.3M 2.2M S  0.0   0.3   0:00.11 lmkd
+  276 root          0 -20  29M 8.2M 8.2M S  0.0   0.9   0:00.56 engpc -p l -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+  275 system       20   0 6.4M 1.6M 1.6M S  0.0   0.1   0:00.12 gpsd
+  274 root         20   0  11M 3.8M 3.6M S  0.0   0.4   0:00.34 healthd
+  273 system       20   0 7.2M 2.9M 2.7M S  0.0   0.3   0:00.05 vendor.sprd.hardware.thermal@1.0-service
+  272 system       20   0  16M 4.1M 3.8M S  0.0   0.4   0:02.33 vendor.sprd.hardware.power@2.0-service
+  271 system       20   0 8.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.log@1.0-service
+  270 system       20   0 7.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.ifaa@1.0-service
+  269 system       20   0  12M 3.1M 3.1M S  0.0   0.3   0:00.04 vendor.sprd.hardware.face@1.0-service
+  268 system       20   0 7.1M 2.7M 2.7M S  0.0   0.3   0:00.04 vendor.sprd.hardware.connmgr@1.0-service
+  267 root         20   0  10M 3.7M 3.5M S  0.0   0.4   0:01.37 android.hardware.wifi@1.0-service
+  266 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.04 android.hardware.vibrator@1.0-service
+  265 system       20   0 8.2M 2.8M 2.7M S  0.0   0.3   0:00.10 android.hardware.usb@1.1-service
+  263 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:01.40 android.hardware.memtrack@1.0-service
+  262 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.light@2.0-service
+  261 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.health@1.0-service
+  259 system       20   0  10M 3.4M 3.2M S  0.0   0.3   0:00.61 android.hardware.graphics.allocator@2.0-service
+  258 system       20   0 7.0M 2.4M 2.4M S  0.0   0.2   0:00.04 android.hardware.gatekeeper@1.0-service
+  257 system       20   0 6.9M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.dumpstate@1.0-service
+  256 media        20   0  13M 4.7M 4.7M S  0.0   0.5   0:00.12 android.hardware.drm@1.0-service
+  255 system       20   0 9.1M 2.8M 2.6M S  0.0   0.3   0:00.04 android.hardware.configstore@1.0-service
+  254 media        20   0  12M 3.8M 3.8M S  0.0   0.4   0:00.10 android.hardware.cas@1.0-service
+  253 cameraserver 20   0  37M 7.2M 7.2M S  0.0   0.8   0:00.28 android.hardware.camera.provider@2.4-service
+  252 bluetooth    20   0 7.0M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.bluetooth@1.0-service
+  251 audioserver  20   0  28M 6.1M 5.9M S  0.0   0.6   0:00.66 android.hardware.audio@2.0-service
+  250 system       20   0 6.9M 2.9M 2.7M S  0.0   0.3   0:00.08 android.hidl.allocator@1.0-service
+  247 root         20   0 0.9G 106M 102M S  0.0  12.1   0:02.79 zygote
+  246 root         20   0  31M 4.8M 4.4M S  0.0   0.5   0:01.00 netd
+  236 root         20   0  15M 4.8M 4.7M S  0.0   0.5   0:00.17 vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  235 system       20   0 8.1M 3.0M 2.8M S  0.0   0.3   0:00.05 android.hardware.keymaster@3.0-service
+  234 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kauditd]
+  230 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_job_fault]
+  226 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [gpu_dfs]
+  225 system       20   0 5.2M 2.0M 2.0M S  0.0   0.2   0:00.02 vndservicemanager /dev/vndbinder
+  224 system       20   0 8.4M 4.1M 3.7M S  0.0   0.4   0:00.38 hwservicemanager
+  223 system       20   0 5.4M 2.3M 2.1M S  0.0   0.2   0:10.15 servicemanager
+  221 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  220 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p1-]
+  218 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  217 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p29]
+  213 root         20   0    0    0    0 S  0.0   0.0   0:00.19 [f2fs_gc-259:17]
+  212 root         20   0    0    0    0 S  0.0   0.0   0:00.73 [f2fs_discard-25]
+  211 root         20   0    0    0    0 S  0.0   0.0   0:01.70 [f2fs_flush-259:]
+  209 root          0 -20    0    0    0 S  0.0   0.0   0:00.81 [kworker/0:1H]
+  206 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [VserTestWq]
+  205 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [f_mtp]
+  200 root         20   0 2.8M 1.1M 900K S  0.0   0.1   0:00.41 ueventd
+  199 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  198 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-1-8]
+  197 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  196 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  195 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  194 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  193 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  192 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  190 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  189 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-0-8]
+  186 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  185 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  184 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  183 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  182 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  181 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  179 root          0 -20    0    0    0 S  0.0   0.0   0:00.67 [kworker/3:1H]
+  178 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_reg_dum]
+  177 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_detect_]
+  176 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_button]
+  175 root         20   0    0    0    0 S  0.0   0.0   0:01.66 [kworker/2:3]
+  174 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:2]
+  173 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdbat_monitor]
+  172 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-12]
+  171 root         RT   0    0    0    0 S  0.0   0.0   0:00.04 [sbuf-3-11]
+  170 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-5]
+  169 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-25]
+  168 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-24]
+  167 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-20]
+  166 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-19]
+  165 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-18]
+  164 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-9]
+  163 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-8]
+  162 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-7]
+  161 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [deferwq]
+  152 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-ctrl[5-3]]
+  151 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-3]
+  150 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-data[5-2]]
+  149 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-2]
+  148 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ipv6_addrconf]
+  146 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [binder]
+  144 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0rpmb]
+  143 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  142 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot1]
+  141 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  140 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot0]
+  139 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  138 root         -2   0    0    0    0 S  0.0   0.0   0:30.32 [mmcqd/0]
+  137 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  136 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [swcnblk-3-9]
+  135 root         RT   0    0    0    0 S  0.0   0.0   0:03.84 [swcnblk-3-8]
+  134 root         RT   0    0    0    0 S  0.0   0.0   0:00.14 [swcnblk-3-7]
+  133 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-5]
+  132 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-4-4]
+  131 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-4]
+  130 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [sbuf-5-6]
+  129 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-21]
+  128 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-4]
+  127 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-6]
+  126 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-5]
+  125 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/69-20300000]
+  123 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sprdhotplug]
+  122 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [dm_bufio_cache]
+  121 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [watchdog_feeder]
+  117 root         20   0    0    0    0 S  0.0   0.0   0:00.69 [Betterlife_ts]
+  116 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [uether]
+  115 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-151]
+  114 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-16]
+  113 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-15]
+  112 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-14]
+  111 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-131]
+  110 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-17]
+  109 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-12]
+  108 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-11]
+  107 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-14]
+  106 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-10]
+  105 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  104 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-13]
+  103 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-10]
+  102 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  101 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   67 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [fsnotify_mark]
+   66 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [vmstat]
+   65 root         20   0    0    0    0 S  0.0   0.0   0:02.97 [kswapd0]
+   46 root         RT   0    0    0    0 S  0.0   0.0   0:12.47 [cfinteractive]
+   45 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdfgu_monitor]
+   44 root         RT   0    0    0    0 S  0.0   0.0   0:00.05 [irq/57-spi5.0]
+   43 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [cfg80211]
+   42 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [devfreq_wq]
+   41 root         20   0    0    0    0 D  0.0   0.0   0:00.00 [mbox-send-threa]
+   40 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [carveout_fb]
+   39 root         20   0    0    0    0 S  0.0   0.0   0:00.06 [system]
+   38 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi5]
+   37 root         20   0    0    0    0 S  0.0   0.0   0:00.93 [spi1]
+   36 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi0]
+   35 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [sprd_deep_print]
+   34 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kblockd]
+   33 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   32 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [crypto]
+   31 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [writeback]
+   30 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/23-70900000]
+   28 root         RT   0    0    0    0 S  0.0   0.0   0:08.47 [irq/21-70700000]
+   26 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/20-70500000]
+   25 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [perf]
+   24 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [suspend_sys_syn]
+   23 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kdevtmpfs]
+   22 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/3:0H]
+   20 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [ksoftirqd/3]
+   19 root         RT   0    0    0    0 S  0.0   0.0   0:00.01 [migration/3]
+   18 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:0H]
+   16 root         20   0    0    0    0 S  0.0   0.0   0:00.14 [ksoftirqd/2]
+   15 root         RT   0    0    0    0 S  0.0   0.0   0:00.02 [migration/2]
+   14 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0H]
+   12 root         20   0    0    0    0 S  0.0   0.0   0:00.23 [ksoftirqd/1]
+   11 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/1]
+   10 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/0]
+    9 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_bh]
+    8 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_sched]
+    5 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:0H]
+    3 root         20   0    0    0    0 S  0.0   0.0   0:00.15 [ksoftirqd/0]
+    2 root         20   0    0    0    0 S  0.0   0.0   0:00.01 [kthreadd]
+    1 root         20   0 9.3M 1.4M 1.1M S  0.0   0.1   0:01.89 init
+
+
+2023-05-23 15-28-38 top info:
+Tasks: 277 total,   1 running, 274 sleeping,   0 stopped,   1 zombie
+Mem:    897920k total,   855324k used,    42596k free,     1664k buffers
+Swap:   819196k total,   149344k used,   669852k free,   511012k cached
+400%cpu  63%user   3%nice  84%sys 250%idle   0%iow   0%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS                       
+  324 shell        20   0  23M 1.3M 0.9M S 28.1   0.1   0:53.76 adbd --root_seclabel=u:r:su:s0
+15699 shell        20   0 5.3M 2.6M 2.2M R 25.0   0.2   0:00.11 top -b -n 1 -d 5
+  799 u0_a22       20   0 1.1G 142M 128M S  6.2  16.2   1:55.28 com.android.systemui
+15605 shell        20   0 4.6M 2.5M 2.0M S  3.1   0.2   0:00.18 logcat -v threadtime -b all
+14604 shell        20   0 4.6M 2.5M 2.1M S  3.1   0.2   0:00.80 logcat -v threadtime -b all
+ 1215 system       10 -10 1.1G 124M 105M S  3.1  14.1   2:07.93 com.jx.launcher
+  598 system       18  -2 1.1G 160M 143M S  3.1  18.1   3:48.38 system_server
+  313 mediacodec   20   0  43M  11M 8.5M S  3.1   1.2   0:36.18 media.codec hw/android.hardware.media.omx@1.0-service
+  264 system       RT   0 8.1M 2.8M 2.5M S  3.1   0.3   1:00.03 android.hardware.sensors@1.0-service
+   46 root         RT   0    0    0    0 S  3.1   0.0   0:12.49 [cfinteractive]
+15626 root         20   0    0    0    0 S  0.0   0.0   0:00.05 [kworker/1:3]
+15615 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:1]
+15613 root          0 -20    0    0    0 S  0.0   0.0   0:00.02 [kworker/u9:1]
+13514 root         20   0    0    0    0 S  0.0   0.0   0:02.88 [kworker/1:1]
+11784 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11770 u0_a2        20   0 1.0G  79M  72M S  0.0   9.0   0:05.23 android.process.acore
+11750 system       20   0 1.0G  98M  89M S  0.0  11.2   0:01.17 com.jx.watchos.contact
+11593 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:5]
+11583 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11554 system       20   0 1.0G  98M  91M S  0.0  11.2   0:12.59 com.divo.phone
+11478 root          0 -20    0    0    0 S  0.0   0.0   0:00.26 [kworker/u9:2]
+11109 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:4]
+10971 root         20   0    0    0    0 S  0.0   0.0   0:00.05 [kworker/0:2]
+10923 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0]
+ 9840 root         20   0    0    0    0 S  0.0   0.0   0:00.04 [kworker/u8:2]
+ 9839 root         20   0    0    0    0 S  0.0   0.0   0:00.37 [kworker/u8:0]
+ 6348 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 6327 u0_a21       20   0 1.0G  96M  90M S  0.0  10.9   0:00.40 com.android.packageinstaller
+ 5904 u0_a82       20   0    0    0    0 Z  0.0   0.0   0:00.01 [ZIDThreadPoolEx]
+ 5857 system       20   0 1.0G  68M  63M S  0.0   7.6   0:03.72 com.abupdate.fota_demo_iot
+ 5447 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 5333 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 5306 u0_a82       20   0 1.3G 205M 190M S  0.0  23.3   2:09.02 com.antutu.ABenchMark
+ 3133 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:0]
+ 3132 root         20   0    0    0    0 S  0.0   0.0   0:00.08 [kworker/0:0]
+ 1999 shell        20   0 852M  53M  49M S  0.0   6.0   0:00.89 app_process / com.genymobile.scrcpy.CleanUp AAAAAP////8CAAAA
+ 1981 shell        20   0 868M  69M  59M S  0.0   7.8   0:27.52 app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+ 1979 shell        20   0 4.3M 2.2M 1.8M S  0.0   0.2   0:00.01 sh -c CLASSPATH=/data/local/tmp/scrcpy-server.jar app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+ 1911 u0_a2        20   0 1.0G  59M  57M S  0.0   6.7   0:00.13 com.android.dialer
+ 1859 root         20   0    0    0    0 S  0.0   0.0   0:00.89 [kworker/u8:1]
+ 1855 root          0 -20    0    0    0 S  0.0   0.0   0:02.61 [kworker/u9:0]
+ 1756 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1737 u0_a83       20   0 1.1G  98M  95M S  0.0  11.1   2:57.39 com.andromeda.androbench2
+ 1710 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:2]
+ 1338 u0_a9        20   0 1.0G  74M  70M S  0.0   8.4   0:06.38 android.process.media
+ 1323 u0_a72       20   0 1.0G 102M  86M S  0.0  11.6   0:02.36 com.jx.inputmethod.pinyin
+ 1188 u0_a66       20   0 1.0G  50M  46M S  0.0   5.7   0:00.08 com.android.modemnotifier
+ 1169 system       20   0 1.0G  65M  60M S  0.0   7.3   0:00.21 com.spreadtrum.vce
+ 1163 system       20   0 1.0G  59M  54M S  0.0   6.7   0:00.19 com.sprd.applock
+ 1146 system       20   0 1.0G  57M  55M S  0.0   6.5   0:00.16 com.android.deskclock
+ 1124 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1045 system       20   0 1.0G  70M  66M S  0.0   8.0   0:00.60 com.spreadtrum.vowifi
+ 1016 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  963 system       20   0 1.1G 127M 122M S  0.0  14.4   0:07.52 com.android.settings
+  906 wifi         20   0  11M 6.2M 5.9M S  0.0   0.7   0:00.26 wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf -m/data/misc/wifi/p2p_supplicant.conf -e/data/misc/wifi/entropy.bin -g@android:wpa_wlan0 -dd
+  887 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [SPRDWL_TX_QUEUE]
+  767 radio        20   0 1.1G 101M  94M S  0.0  11.4   0:10.03 com.android.phone
+  613 root         20   0  12M 2.0M 2.0M S  0.0   0.2   0:00.06 cp_diskserver
+  612 radio        20   0  29M 4.6M 4.3M S  0.0   0.5   0:00.42 sprdrild
+  400 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  399 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  349 root         20   0 4.3M 1.0M 928K S  0.0   0.1   0:00.41 sh /system/bin/ip_monitor.sh
+  348 root         20   0 4.4M 2.0M 1.9M S  0.0   0.2   0:00.06 ip monitor
+  337 root          0 -20    0    0    0 S  0.0   0.0   0:00.74 [kworker/1:1H]
+  333 root         20   0 5.1M 192K 188K S  0.0   0.0   0:00.00 srtd
+  323 system       20   0  19M 7.0M 6.9M S  0.0   0.8   0:00.69 connmgr
+  322 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f ns -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  321 system       20   0  13M 4.0M 3.9M S  0.0   0.4   0:00.13 android.hardware.biometrics.fingerprint@2.1-service
+  320 tombstoned   20   0 4.4M 1.9M 1.9M S  0.0   0.2   0:00.01 tombstoned
+  319 system       20   0  13M 4.5M 4.4M S  0.0   0.5   0:00.10 gatekeeperd /data/misc/gatekeeper
+  318 system       20   0  60M  12M  12M S  0.0   1.3   0:01.12 vendor.sprd.hardware.gnss@1.0-service
+  317 system       20   0  18M 5.1M 4.8M S  0.0   0.5   0:04.77 thermald
+  316 shell        20   0 8.6M 2.0M 1.9M S  0.0   0.2   0:00.02 slogmodem
+  315 system       20   0 8.3M 1.9M 1.9M S  0.0   0.2   0:00.02 refnotify
+  314 root         20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 ext_data
+  312 wifi         20   0  13M 4.3M 4.1M S  0.0   0.4   0:00.67 wificond
+  311 root         30  10  13M 3.7M 3.5M S  0.0   0.4   0:00.14 storaged
+  309 root         20   0    0    0    0 S  0.0   0.0   0:13.38 [kworker/1:2]
+  310 root         20   0 4.4M 1.8M 1.8M S  0.0   0.2   0:00.02 ju_ipsec_server
+  308 system       20   0 8.6M 2.8M 2.8M S  0.0   0.3   0:00.06 phasecheckserver
+  307 media        20   0  47M  12M  11M S  0.0   1.3   0:00.60 mediaserver
+  306 media        20   0  17M 7.1M 7.0M S  0.0   0.8   0:00.22 media.metrics diametrics
+  302 root          0 -20    0    0    0 S  0.0   0.0   0:00.66 [kworker/2:1H]
+  301 mediaex      20   0  46M  11M  11M S  0.0   1.2   0:00.43 media.extractor aextractor
+  300 media        20   0  13M 4.8M 4.8M S  0.0   0.5   0:00.12 mediadrmserver
+  299 root         20   0 6.7M 2.4M 2.4M S  0.0   0.2   0:00.03 log_service
+  298 keystore     20   0  14M 5.0M 4.7M S  0.0   0.5   0:00.15 keystore /data/misc/keystore
+  297 root         20   0 4.3M 1.8M 1.8M S  0.0   0.2   0:00.01 sh /system/bin/ip_monitor.sh
+  296 root         20   0  14M 4.1M 3.9M S  0.0   0.4   0:01.31 installd
+  295 root         20   0 4.5M 2.0M 2.0M S  0.0   0.2   0:00.02 ims_bridged
+  294 drm          20   0  38M  16M  16M S  0.0   1.8   0:00.82 drmserver
+  293 cameraserver 20   0  23M 8.6M 8.4M S  0.0   0.9   0:00.33 cameraserver
+  292 audioserver  20   0  32M 8.6M 8.1M S  0.0   0.9   0:00.68 audioserver
+  291 root         20   0 4.8M 1.9M 1.9M S  0.0   0.2   0:00.01 srtd
+  289 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 ip6tables-restore --noflush -w -v
+  288 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 iptables-restore --noflush -w -v
+  285 system       20   0 5.1M 2.0M 2.0M S  0.0   0.2   0:00.02 tsupplicant firmware
+  284 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f rpmb -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  283 system       20   0 7.5M 1.7M 1.7M S  0.0   0.1   0:00.03 modemd
+  282 system       20   0  10M 1.7M 1.7M S  0.0   0.2   0:00.15 modem_control
+  281 system       20   0 6.4M 2.0M 1.8M S  0.0   0.2   0:00.08 gnss_download
+  280 root         20   0  13M 3.7M 3.7M S  0.0   0.4   0:00.10 thermalserviced
+  279 system       -2 -20  77M  19M  17M S  0.0   2.1   3:26.48 surfaceflinger
+  278 root         20   0  12M 3.2M 3.2M S  0.0   0.3   0:00.07 performancemanager
+  277 root         -2   0 5.8M 3.3M 2.2M S  0.0   0.3   0:00.11 lmkd
+  276 root          0 -20  29M 8.2M 8.2M S  0.0   0.9   0:00.56 engpc -p l -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+  275 system       20   0 6.4M 1.6M 1.6M S  0.0   0.1   0:00.12 gpsd
+  274 root         20   0  11M 3.8M 3.6M S  0.0   0.4   0:00.34 healthd
+  273 system       20   0 7.2M 2.9M 2.7M S  0.0   0.3   0:00.05 vendor.sprd.hardware.thermal@1.0-service
+  272 system       20   0  16M 4.1M 3.8M S  0.0   0.4   0:02.35 vendor.sprd.hardware.power@2.0-service
+  271 system       20   0 8.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.log@1.0-service
+  270 system       20   0 7.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.ifaa@1.0-service
+  269 system       20   0  12M 3.1M 3.1M S  0.0   0.3   0:00.04 vendor.sprd.hardware.face@1.0-service
+  268 system       20   0 7.1M 2.7M 2.7M S  0.0   0.3   0:00.04 vendor.sprd.hardware.connmgr@1.0-service
+  267 root         20   0  10M 3.7M 3.5M S  0.0   0.4   0:01.37 android.hardware.wifi@1.0-service
+  266 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.04 android.hardware.vibrator@1.0-service
+  265 system       20   0 8.2M 2.8M 2.7M S  0.0   0.3   0:00.10 android.hardware.usb@1.1-service
+  263 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:01.41 android.hardware.memtrack@1.0-service
+  262 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.light@2.0-service
+  261 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.health@1.0-service
+  260 system       -3  -8  64M  13M  13M S  0.0   1.5   0:20.93 android.hardware.graphics.composer@2.1-service
+  259 system       20   0  10M 3.4M 3.2M S  0.0   0.3   0:00.61 android.hardware.graphics.allocator@2.0-service
+  258 system       20   0 7.0M 2.4M 2.4M S  0.0   0.2   0:00.04 android.hardware.gatekeeper@1.0-service
+  257 system       20   0 6.9M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.dumpstate@1.0-service
+  256 media        20   0  13M 4.7M 4.7M S  0.0   0.5   0:00.12 android.hardware.drm@1.0-service
+  255 system       20   0 9.1M 2.8M 2.6M S  0.0   0.3   0:00.04 android.hardware.configstore@1.0-service
+  254 media        20   0  12M 3.8M 3.8M S  0.0   0.4   0:00.10 android.hardware.cas@1.0-service
+  253 cameraserver 20   0  37M 7.2M 7.2M S  0.0   0.8   0:00.28 android.hardware.camera.provider@2.4-service
+  252 bluetooth    20   0 7.0M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.bluetooth@1.0-service
+  251 audioserver  20   0  28M 6.1M 5.9M S  0.0   0.6   0:00.66 android.hardware.audio@2.0-service
+  250 system       20   0 6.9M 2.9M 2.7M S  0.0   0.3   0:00.08 android.hidl.allocator@1.0-service
+  247 root         20   0 0.9G 106M 102M S  0.0  12.1   0:02.79 zygote
+  246 root         20   0  31M 4.8M 4.4M S  0.0   0.5   0:01.00 netd
+  236 root         20   0  15M 4.8M 4.7M S  0.0   0.5   0:00.17 vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  235 system       20   0 8.1M 3.0M 2.8M S  0.0   0.3   0:00.05 android.hardware.keymaster@3.0-service
+  234 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kauditd]
+  230 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_job_fault]
+  226 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [gpu_dfs]
+  225 system       20   0 5.2M 2.0M 2.0M S  0.0   0.2   0:00.02 vndservicemanager /dev/vndbinder
+  224 system       20   0 8.4M 4.1M 3.7M S  0.0   0.4   0:00.38 hwservicemanager
+  223 system       20   0 5.4M 2.3M 2.1M S  0.0   0.2   0:10.16 servicemanager
+  222 logd         30  10  15M 2.8M 2.0M S  0.0   0.3   0:16.99 logd
+  221 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  220 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p1-]
+  218 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  217 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p29]
+  213 root         20   0    0    0    0 S  0.0   0.0   0:00.19 [f2fs_gc-259:17]
+  212 root         20   0    0    0    0 S  0.0   0.0   0:00.73 [f2fs_discard-25]
+  211 root         20   0    0    0    0 S  0.0   0.0   0:01.70 [f2fs_flush-259:]
+  209 root          0 -20    0    0    0 S  0.0   0.0   0:00.81 [kworker/0:1H]
+  206 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [VserTestWq]
+  205 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [f_mtp]
+  200 root         20   0 2.8M 1.1M 900K S  0.0   0.1   0:00.41 ueventd
+  199 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  198 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-1-8]
+  197 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  196 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  195 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  194 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  193 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  192 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  190 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  189 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-0-8]
+  186 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  185 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  184 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  183 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  182 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  181 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  179 root          0 -20    0    0    0 S  0.0   0.0   0:00.67 [kworker/3:1H]
+  178 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_reg_dum]
+  177 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_detect_]
+  176 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_button]
+  175 root         20   0    0    0    0 S  0.0   0.0   0:01.67 [kworker/2:3]
+  174 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:2]
+  173 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdbat_monitor]
+  172 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-12]
+  171 root         RT   0    0    0    0 S  0.0   0.0   0:00.04 [sbuf-3-11]
+  170 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-5]
+  169 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-25]
+  168 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-24]
+  167 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-20]
+  166 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-19]
+  165 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-18]
+  164 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-9]
+  163 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-8]
+  162 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-7]
+  161 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [deferwq]
+  152 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-ctrl[5-3]]
+  151 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-3]
+  150 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-data[5-2]]
+  149 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-2]
+  148 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ipv6_addrconf]
+  146 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [binder]
+  144 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0rpmb]
+  143 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  142 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot1]
+  141 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  140 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot0]
+  139 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  138 root         -2   0    0    0    0 S  0.0   0.0   0:30.32 [mmcqd/0]
+  137 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  136 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [swcnblk-3-9]
+  135 root         RT   0    0    0    0 S  0.0   0.0   0:03.84 [swcnblk-3-8]
+  134 root         RT   0    0    0    0 S  0.0   0.0   0:00.14 [swcnblk-3-7]
+  133 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-5]
+  132 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-4-4]
+  131 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-4]
+  130 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [sbuf-5-6]
+  129 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-21]
+  128 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-4]
+  127 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-6]
+  126 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-5]
+  125 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/69-20300000]
+  123 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sprdhotplug]
+  122 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [dm_bufio_cache]
+  121 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [watchdog_feeder]
+  117 root         20   0    0    0    0 S  0.0   0.0   0:00.70 [Betterlife_ts]
+  116 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [uether]
+  115 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-151]
+  114 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-16]
+  113 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-15]
+  112 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-14]
+  111 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-131]
+  110 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-17]
+  109 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-12]
+  108 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-11]
+  107 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-14]
+  106 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-10]
+  105 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  104 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-13]
+  103 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-10]
+  102 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  101 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  100 root         20   0    0    0    0 S  0.0   0.0   0:19.64 [sprd-adf-dev]
+   67 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [fsnotify_mark]
+   66 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [vmstat]
+   65 root         20   0    0    0    0 S  0.0   0.0   0:02.97 [kswapd0]
+   45 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdfgu_monitor]
+   44 root         RT   0    0    0    0 S  0.0   0.0   0:00.05 [irq/57-spi5.0]
+   43 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [cfg80211]
+   42 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [devfreq_wq]
+   41 root         20   0    0    0    0 D  0.0   0.0   0:00.00 [mbox-send-threa]
+   40 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [carveout_fb]
+   39 root         20   0    0    0    0 S  0.0   0.0   0:00.06 [system]
+   38 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi5]
+   37 root         20   0    0    0    0 S  0.0   0.0   0:00.93 [spi1]
+   36 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi0]
+   35 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [sprd_deep_print]
+   34 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kblockd]
+   33 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   32 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [crypto]
+   31 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [writeback]
+   30 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/23-70900000]
+   29 root         RT   0    0    0    0 S  0.0   0.0   0:00.16 [irq/22-70800000]
+   28 root         RT   0    0    0    0 S  0.0   0.0   0:08.49 [irq/21-70700000]
+   26 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/20-70500000]
+   25 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [perf]
+   24 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [suspend_sys_syn]
+   23 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kdevtmpfs]
+   22 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/3:0H]
+   20 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [ksoftirqd/3]
+   19 root         RT   0    0    0    0 S  0.0   0.0   0:00.01 [migration/3]
+   18 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:0H]
+   16 root         20   0    0    0    0 S  0.0   0.0   0:00.14 [ksoftirqd/2]
+   15 root         RT   0    0    0    0 S  0.0   0.0   0:00.02 [migration/2]
+   14 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0H]
+   12 root         20   0    0    0    0 S  0.0   0.0   0:00.23 [ksoftirqd/1]
+   11 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/1]
+   10 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/0]
+    9 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_bh]
+    8 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_sched]
+    7 root         20   0    0    0    0 S  0.0   0.0   0:05.36 [rcu_preempt]
+    5 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:0H]
+    3 root         20   0    0    0    0 S  0.0   0.0   0:00.15 [ksoftirqd/0]
+    2 root         20   0    0    0    0 S  0.0   0.0   0:00.01 [kthreadd]
+    1 root         20   0 9.3M 1.4M 1.1M S  0.0   0.1   0:01.89 init
+
+
+2023-05-23 15-28-43 top info:
+Tasks: 281 total,   1 running, 277 sleeping,   0 stopped,   1 zombie
+Mem:    897920k total,   851216k used,    46704k free,     1624k buffers
+Swap:   819196k total,   158320k used,   660876k free,   500880k cached
+400%cpu 239%user  39%nice 186%sys  67%idle   3%iow   0%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS                       
+  598 system       18  -2 1.1G 161M 144M S  102  18.3   3:52.29 system_server
+15732 u0_a76       10 -10 1.1G 114M 103M S 94.4  13.0   0:02.35 com.yingyonghui.market
+  324 shell        20   0  23M 1.4M 0.9M S 44.4   0.1   0:54.44 adbd --root_seclabel=u:r:su:s0
+  279 system       -2 -20  78M  20M  17M S 38.8   2.2   3:27.22 surfaceflinger
+15846 shell        20   0 5.3M 2.5M 2.1M R 25.0   0.2   0:00.12 top -b -n 1 -d 5
+  799 u0_a22       20   0 1.1G 142M 128M S 19.4  16.1   1:55.54 com.android.systemui
+ 1981 shell        20   0 868M  68M  59M S  8.3   7.8   0:27.68 app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+  313 mediacodec   20   0  43M  11M 8.0M S  8.3   1.2   0:36.40 media.codec hw/android.hardware.media.omx@1.0-service
+  222 logd         30  10  15M 2.8M 2.0M S  8.3   0.3   0:17.16 logd
+14604 shell        20   0 4.6M 2.5M 2.1M S  5.5   0.2   0:00.88 logcat -v threadtime -b all
+  260 system       -2  -8  65M  13M  13M S  5.5   1.5   0:21.02 android.hardware.graphics.composer@2.1-service
+15626 root         20   0    0    0    0 S  2.7   0.0   0:00.09 [kworker/1:3]
+15605 shell        20   0 4.6M 2.5M 2.0M S  2.7   0.2   0:00.26 logcat -v threadtime -b all
+11554 system       20   0 1.0G  97M  91M S  2.7  11.0   0:12.65 com.divo.phone
+ 5306 u0_a82       20   0 1.3G 202M 188M S  2.7  23.0   2:09.11 com.antutu.ABenchMark
+  264 system       20   0 8.1M 2.8M 2.5M S  2.7   0.3   1:00.19 android.hardware.sensors@1.0-service
+  263 system       20   0 6.9M 2.7M 2.6M S  2.7   0.3   0:01.43 android.hardware.memtrack@1.0-service
+  135 root         RT   0    0    0    0 S  2.7   0.0   0:03.89 [swcnblk-3-8]
+  100 root         20   0    0    0    0 D  2.7   0.0   0:19.71 [sprd-adf-dev]
+   37 root         20   0    0    0    0 S  2.7   0.0   0:00.93 [spi1]
+15845 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/u9:3]
+15793 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+15717 shell        20   0  10M 3.6M 3.0M S  0.0   0.4   0:00.08 dumpsys meminfo
+15615 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:1]
+15613 root          0 -20    0    0    0 S  0.0   0.0   0:00.03 [kworker/u9:1]
+13514 root         20   0    0    0    0 S  0.0   0.0   0:02.88 [kworker/1:1]
+11784 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11770 u0_a2        20   0 1.0G  78M  72M S  0.0   8.8   0:05.23 android.process.acore
+11750 system       20   0 1.0G  96M  89M S  0.0  10.9   0:01.17 com.jx.watchos.contact
+11593 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:5]
+11583 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11478 root          0 -20    0    0    0 S  0.0   0.0   0:00.30 [kworker/u9:2]
+11109 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:4]
+10971 root         20   0    0    0    0 S  0.0   0.0   0:00.05 [kworker/0:2]
+10923 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0]
+ 9840 root         20   0    0    0    0 S  0.0   0.0   0:00.21 [kworker/u8:2]
+ 9839 root         20   0    0    0    0 S  0.0   0.0   0:00.39 [kworker/u8:0]
+ 6348 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 6327 u0_a21       20   0 1.0G  94M  90M S  0.0  10.7   0:00.40 com.android.packageinstaller
+ 5904 u0_a82       20   0    0    0    0 Z  0.0   0.0   0:00.01 [ZIDThreadPoolEx]
+ 5857 system       20   0 1.0G  67M  63M S  0.0   7.6   0:03.73 com.abupdate.fota_demo_iot
+ 5447 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 5333 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 3133 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:0]
+ 3132 root         20   0    0    0    0 S  0.0   0.0   0:00.08 [kworker/0:0]
+ 1999 shell        20   0 852M  53M  49M S  0.0   6.0   0:00.89 app_process / com.genymobile.scrcpy.CleanUp AAAAAP////8CAAAA
+ 1979 shell        20   0 4.3M 2.2M 1.8M S  0.0   0.2   0:00.01 sh -c CLASSPATH=/data/local/tmp/scrcpy-server.jar app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+ 1911 u0_a2        20   0 1.0G  59M  57M S  0.0   6.7   0:00.13 com.android.dialer
+ 1859 root         20   0    0    0    0 S  0.0   0.0   0:00.91 [kworker/u8:1]
+ 1855 root          0 -20    0    0    0 S  0.0   0.0   0:02.61 [kworker/u9:0]
+ 1756 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1737 u0_a83       20   0 1.1G  98M  95M S  0.0  11.1   2:57.39 com.andromeda.androbench2
+ 1710 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:2]
+ 1338 u0_a9        20   0 1.0G  74M  70M S  0.0   8.4   0:06.38 android.process.media
+ 1323 u0_a72       20   0 1.0G 102M  86M S  0.0  11.6   0:02.37 com.jx.inputmethod.pinyin
+ 1215 system       20   0 1.1G 123M 105M S  0.0  14.0   2:08.41 com.jx.launcher
+ 1188 u0_a66       20   0 1.0G  50M  46M S  0.0   5.7   0:00.08 com.android.modemnotifier
+ 1169 system       20   0 1.0G  64M  60M S  0.0   7.3   0:00.21 com.spreadtrum.vce
+ 1163 system       20   0 1.0G  59M  54M S  0.0   6.7   0:00.19 com.sprd.applock
+ 1146 system       20   0 1.0G  57M  55M S  0.0   6.5   0:00.16 com.android.deskclock
+ 1124 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1045 system       20   0 1.0G  70M  66M S  0.0   8.0   0:00.60 com.spreadtrum.vowifi
+ 1016 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  963 system       20   0 1.1G 127M 122M S  0.0  14.4   0:07.52 com.android.settings
+  906 wifi         20   0  11M 6.2M 5.9M S  0.0   0.7   0:00.27 wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf -m/data/misc/wifi/p2p_supplicant.conf -e/data/misc/wifi/entropy.bin -g@android:wpa_wlan0 -dd
+  887 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [SPRDWL_TX_QUEUE]
+  767 radio        20   0 1.1G 100M  93M S  0.0  11.3   0:10.05 com.android.phone
+  613 root         20   0  12M 2.0M 2.0M S  0.0   0.2   0:00.06 cp_diskserver
+  612 radio        20   0  29M 4.6M 4.3M S  0.0   0.5   0:00.42 sprdrild
+  400 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  399 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  349 root         20   0 4.3M 1.0M 928K S  0.0   0.1   0:00.42 sh /system/bin/ip_monitor.sh
+  348 root         20   0 4.4M 2.0M 1.9M S  0.0   0.2   0:00.06 ip monitor
+  337 root          0 -20    0    0    0 S  0.0   0.0   0:00.74 [kworker/1:1H]
+  333 root         20   0 5.1M 192K 188K S  0.0   0.0   0:00.00 srtd
+  323 system       20   0  19M 7.0M 6.9M S  0.0   0.8   0:00.69 connmgr
+  322 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f ns -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  321 system       20   0  13M 4.0M 3.9M S  0.0   0.4   0:00.13 android.hardware.biometrics.fingerprint@2.1-service
+  320 tombstoned   20   0 4.4M 1.9M 1.9M S  0.0   0.2   0:00.01 tombstoned
+  319 system       20   0  13M 4.5M 4.4M S  0.0   0.5   0:00.10 gatekeeperd /data/misc/gatekeeper
+  318 system       20   0  60M  12M  12M S  0.0   1.3   0:01.12 vendor.sprd.hardware.gnss@1.0-service
+  317 system       20   0  18M 5.1M 4.8M S  0.0   0.5   0:04.77 thermald
+  316 shell        20   0 8.6M 2.0M 1.9M S  0.0   0.2   0:00.02 slogmodem
+  315 system       20   0 8.3M 1.9M 1.9M S  0.0   0.2   0:00.02 refnotify
+  314 root         20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 ext_data
+  312 wifi         20   0  13M 4.3M 4.1M S  0.0   0.4   0:00.67 wificond
+  311 root         30  10  13M 3.7M 3.5M S  0.0   0.4   0:00.14 storaged
+  309 root         20   0    0    0    0 S  0.0   0.0   0:13.38 [kworker/1:2]
+  310 root         20   0 4.4M 1.8M 1.8M S  0.0   0.2   0:00.02 ju_ipsec_server
+  308 system       20   0 8.6M 2.8M 2.8M S  0.0   0.3   0:00.06 phasecheckserver
+  307 media        20   0  47M  11M  11M S  0.0   1.2   0:00.60 mediaserver
+  306 media        20   0  17M 7.1M 7.0M S  0.0   0.8   0:00.22 media.metrics diametrics
+  302 root          0 -20    0    0    0 S  0.0   0.0   0:00.66 [kworker/2:1H]
+  301 mediaex      20   0  46M  11M  11M S  0.0   1.2   0:00.43 media.extractor aextractor
+  300 media        20   0  13M 4.8M 4.8M S  0.0   0.5   0:00.12 mediadrmserver
+  299 root         20   0 6.7M 2.4M 2.4M S  0.0   0.2   0:00.03 log_service
+  298 keystore     20   0  14M 5.0M 4.7M S  0.0   0.5   0:00.15 keystore /data/misc/keystore
+  297 root         20   0 4.3M 1.8M 1.8M S  0.0   0.2   0:00.01 sh /system/bin/ip_monitor.sh
+  296 root         20   0  14M 4.1M 3.9M S  0.0   0.4   0:01.31 installd
+  295 root         20   0 4.5M 2.0M 2.0M S  0.0   0.2   0:00.02 ims_bridged
+  294 drm          20   0  38M  16M  16M S  0.0   1.7   0:00.82 drmserver
+  293 cameraserver 20   0  23M 8.6M 8.3M S  0.0   0.9   0:00.33 cameraserver
+  292 audioserver  20   0  32M 8.6M 8.1M S  0.0   0.9   0:00.68 audioserver
+  291 root         20   0 4.8M 1.9M 1.9M S  0.0   0.2   0:00.01 srtd
+  289 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 ip6tables-restore --noflush -w -v
+  288 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 iptables-restore --noflush -w -v
+  285 system       20   0 5.1M 2.0M 2.0M S  0.0   0.2   0:00.02 tsupplicant firmware
+  284 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f rpmb -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  283 system       20   0 7.5M 1.7M 1.7M S  0.0   0.1   0:00.03 modemd
+  282 system       20   0  10M 1.7M 1.7M S  0.0   0.2   0:00.15 modem_control
+  281 system       20   0 6.4M 2.0M 1.8M S  0.0   0.2   0:00.08 gnss_download
+  280 root         20   0  13M 3.7M 3.7M S  0.0   0.4   0:00.10 thermalserviced
+  278 root         20   0  12M 3.2M 3.2M S  0.0   0.3   0:00.07 performancemanager
+  277 root         -2   0 5.8M 3.3M 2.2M S  0.0   0.3   0:00.11 lmkd
+  276 root          0 -20  29M 8.1M 8.1M S  0.0   0.9   0:00.56 engpc -p l -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+  275 system       20   0 6.4M 1.6M 1.6M S  0.0   0.1   0:00.12 gpsd
+  274 root         20   0  11M 3.8M 3.6M S  0.0   0.4   0:00.34 healthd
+  273 system       20   0 7.2M 2.9M 2.7M S  0.0   0.3   0:00.05 vendor.sprd.hardware.thermal@1.0-service
+  272 system       20   0  16M 4.1M 3.8M S  0.0   0.4   0:02.36 vendor.sprd.hardware.power@2.0-service
+  271 system       20   0 8.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.log@1.0-service
+  270 system       20   0 7.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.ifaa@1.0-service
+  269 system       20   0  12M 3.1M 3.1M S  0.0   0.3   0:00.04 vendor.sprd.hardware.face@1.0-service
+  268 system       20   0 7.1M 2.7M 2.7M S  0.0   0.3   0:00.04 vendor.sprd.hardware.connmgr@1.0-service
+  267 root         20   0  10M 3.7M 3.4M S  0.0   0.4   0:01.37 android.hardware.wifi@1.0-service
+  266 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.04 android.hardware.vibrator@1.0-service
+  265 system       20   0 8.2M 2.8M 2.7M S  0.0   0.3   0:00.10 android.hardware.usb@1.1-service
+  262 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.light@2.0-service
+  261 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.health@1.0-service
+  259 system       20   0  10M 3.4M 3.2M S  0.0   0.3   0:00.62 android.hardware.graphics.allocator@2.0-service
+  258 system       20   0 7.0M 2.4M 2.4M S  0.0   0.2   0:00.04 android.hardware.gatekeeper@1.0-service
+  257 system       20   0 6.9M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.dumpstate@1.0-service
+  256 media        20   0  13M 4.7M 4.7M S  0.0   0.5   0:00.12 android.hardware.drm@1.0-service
+  255 system       20   0 9.1M 2.8M 2.6M S  0.0   0.3   0:00.04 android.hardware.configstore@1.0-service
+  254 media        20   0  12M 3.8M 3.8M S  0.0   0.4   0:00.10 android.hardware.cas@1.0-service
+  253 cameraserver 20   0  37M 7.0M 7.0M S  0.0   0.8   0:00.28 android.hardware.camera.provider@2.4-service
+  252 bluetooth    20   0 7.0M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.bluetooth@1.0-service
+  251 audioserver  20   0  28M 6.0M 5.9M S  0.0   0.6   0:00.66 android.hardware.audio@2.0-service
+  250 system       20   0 6.9M 2.9M 2.7M S  0.0   0.3   0:00.08 android.hidl.allocator@1.0-service
+  247 root         20   0 0.9G 101M  97M S  0.0  11.5   0:02.80 zygote
+  246 root         20   0  31M 4.8M 4.4M S  0.0   0.5   0:01.02 netd
+  236 root         20   0  15M 4.8M 4.7M S  0.0   0.5   0:00.17 vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  235 system       20   0 8.1M 3.0M 2.8M S  0.0   0.3   0:00.05 android.hardware.keymaster@3.0-service
+  234 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kauditd]
+  230 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_job_fault]
+  226 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [gpu_dfs]
+  225 system       20   0 5.2M 2.0M 2.0M S  0.0   0.2   0:00.02 vndservicemanager /dev/vndbinder
+  224 system       20   0 8.4M 4.1M 3.7M S  0.0   0.4   0:00.38 hwservicemanager
+  223 system       20   0 5.4M 2.3M 2.1M S  0.0   0.2   0:10.20 servicemanager
+  221 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  220 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p1-]
+  218 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  217 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p29]
+  213 root         20   0    0    0    0 S  0.0   0.0   0:00.19 [f2fs_gc-259:17]
+  212 root         20   0    0    0    0 S  0.0   0.0   0:00.73 [f2fs_discard-25]
+  211 root         20   0    0    0    0 S  0.0   0.0   0:01.70 [f2fs_flush-259:]
+  209 root          0 -20    0    0    0 S  0.0   0.0   0:00.81 [kworker/0:1H]
+  206 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [VserTestWq]
+  205 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [f_mtp]
+  200 root         20   0 2.8M 1.1M 900K S  0.0   0.1   0:00.41 ueventd
+  199 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  198 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-1-8]
+  197 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  196 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  195 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  194 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  193 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  192 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  190 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  189 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-0-8]
+  186 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  185 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  184 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  183 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  182 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  181 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  179 root          0 -20    0    0    0 S  0.0   0.0   0:00.67 [kworker/3:1H]
+  178 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_reg_dum]
+  177 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_detect_]
+  176 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_button]
+  175 root         20   0    0    0    0 S  0.0   0.0   0:01.67 [kworker/2:3]
+  174 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:2]
+  173 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdbat_monitor]
+  172 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-12]
+  171 root         RT   0    0    0    0 S  0.0   0.0   0:00.04 [sbuf-3-11]
+  170 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-5]
+  169 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-25]
+  168 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-24]
+  167 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-20]
+  166 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-19]
+  165 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-18]
+  164 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-9]
+  163 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-8]
+  162 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-7]
+  161 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [deferwq]
+  152 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-ctrl[5-3]]
+  151 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-3]
+  150 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-data[5-2]]
+  149 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-2]
+  148 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ipv6_addrconf]
+  146 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [binder]
+  144 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0rpmb]
+  143 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  142 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot1]
+  141 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  140 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot0]
+  139 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  138 root         -2   0    0    0    0 S  0.0   0.0   0:30.36 [mmcqd/0]
+  137 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  136 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [swcnblk-3-9]
+  134 root         RT   0    0    0    0 S  0.0   0.0   0:00.14 [swcnblk-3-7]
+  133 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-5]
+  132 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-4-4]
+  131 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-4]
+  130 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [sbuf-5-6]
+  129 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-21]
+  128 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-4]
+  127 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-6]
+  126 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-5]
+  125 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/69-20300000]
+  123 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sprdhotplug]
+  122 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [dm_bufio_cache]
+  121 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [watchdog_feeder]
+  117 root         20   0    0    0    0 S  0.0   0.0   0:00.70 [Betterlife_ts]
+  116 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [uether]
+  115 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-151]
+  114 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-16]
+  113 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-15]
+  112 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-14]
+  111 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-131]
+  110 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-17]
+  109 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-12]
+  108 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-11]
+  107 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-14]
+  106 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-10]
+  105 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  104 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-13]
+  103 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-10]
+  102 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  101 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   67 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [fsnotify_mark]
+   66 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [vmstat]
+   65 root         20   0    0    0    0 S  0.0   0.0   0:03.10 [kswapd0]
+   46 root         RT   0    0    0    0 S  0.0   0.0   0:12.51 [cfinteractive]
+   45 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdfgu_monitor]
+   44 root         RT   0    0    0    0 S  0.0   0.0   0:00.06 [irq/57-spi5.0]
+   43 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [cfg80211]
+   42 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [devfreq_wq]
+   41 root         20   0    0    0    0 D  0.0   0.0   0:00.00 [mbox-send-threa]
+   40 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [carveout_fb]
+   39 root         20   0    0    0    0 S  0.0   0.0   0:00.06 [system]
+   38 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi5]
+   36 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi0]
+   35 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [sprd_deep_print]
+   34 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kblockd]
+   33 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   32 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [crypto]
+   31 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [writeback]
+   30 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/23-70900000]
+   29 root         RT   0    0    0    0 S  0.0   0.0   0:00.16 [irq/22-70800000]
+   28 root         RT   0    0    0    0 S  0.0   0.0   0:08.52 [irq/21-70700000]
+   26 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/20-70500000]
+   25 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [perf]
+   24 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [suspend_sys_syn]
+   23 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kdevtmpfs]
+   22 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/3:0H]
+   20 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [ksoftirqd/3]
+   19 root         RT   0    0    0    0 S  0.0   0.0   0:00.01 [migration/3]
+   18 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:0H]
+   16 root         20   0    0    0    0 S  0.0   0.0   0:00.14 [ksoftirqd/2]
+   15 root         RT   0    0    0    0 S  0.0   0.0   0:00.02 [migration/2]
+   14 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0H]
+   12 root         20   0    0    0    0 S  0.0   0.0   0:00.23 [ksoftirqd/1]
+   11 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/1]
+   10 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/0]
+    9 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_bh]
+    8 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_sched]
+    7 root         20   0    0    0    0 S  0.0   0.0   0:05.37 [rcu_preempt]
+    5 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:0H]
+    3 root         20   0    0    0    0 S  0.0   0.0   0:00.16 [ksoftirqd/0]
+    2 root         20   0    0    0    0 S  0.0   0.0   0:00.01 [kthreadd]
+    1 root         20   0 9.3M 1.4M 1.1M S  0.0   0.1   0:01.89 init
+
+
+2023-05-23 15-28-48 top info:
+Tasks: 281 total,   3 running, 275 sleeping,   0 stopped,   1 zombie
+Mem:    897920k total,   854812k used,    43108k free,     1624k buffers
+Swap:   819196k total,   155248k used,   663948k free,   507336k cached
+400%cpu  77%user   0%nice  63%sys 260%idle   0%iow   0%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS                       
+  324 shell        20   0  23M 1.4M 0.9M S 34.2   0.1   0:55.45 adbd --root_seclabel=u:r:su:s0
+15994 shell        20   0 5.3M 2.6M 2.1M R 20.0   0.2   0:00.12 top -b -n 1 -d 5
+  279 system       -2 -20  77M  20M  17M S 17.1   2.2   3:28.67 surfaceflinger
+ 1215 system       10 -10 1.1G 121M 105M R 14.2  13.7   2:08.68 com.jx.launcher
+  313 mediacodec   20   0  43M  10M 7.2M S  5.7   1.1   0:36.72 media.codec hw/android.hardware.media.omx@1.0-service
+15732 u0_a76       20   0 1.1G 133M 116M S  2.8  15.1   0:06.60 com.yingyonghui.market
+15626 root         20   0    0    0    0 R  2.8   0.0   0:00.13 [kworker/1:3]
+15605 shell        20   0 4.6M 2.5M 2.0M S  2.8   0.2   0:00.40 logcat -v threadtime -b all
+ 5306 u0_a82       20   0 1.3G 200M 187M S  2.8  22.8   2:09.19 com.antutu.ABenchMark
+ 1981 shell        20   0 868M  69M  59M S  2.8   7.8   0:27.96 app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+  799 u0_a22       20   0 1.1G 140M 127M S  2.8  15.9   1:56.12 com.android.systemui
+  598 system       18  -2 1.1G 156M 138M S  2.8  17.7   3:55.00 system_server
+  264 system       20   0 8.1M 2.8M 2.5M S  2.8   0.3   1:00.34 android.hardware.sensors@1.0-service
+  260 system       -3   0  65M  13M  13M S  2.8   1.5   0:21.19 android.hardware.graphics.composer@2.1-service
+  223 system       20   0 5.4M 2.3M 2.1M S  2.8   0.2   0:10.21 servicemanager
+  222 logd         30  10  15M 2.8M 2.0M S  2.8   0.3   0:17.48 logd
+  135 root         RT   0    0    0    0 S  2.8   0.0   0:03.98 [swcnblk-3-8]
+  100 root         20   0    0    0    0 D  2.8   0.0   0:19.84 [sprd-adf-dev]
+15921 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:0]
+15901 u0_a76       20   0 1.1G  85M  80M S  0.0   9.7   0:01.69 com.yingyonghui.market:pushservice
+15896 root         20   0    0    0    0 S  0.0   0.0   0:00.01 [kworker/u8:3]
+15845 root          0 -20    0    0    0 S  0.0   0.0   0:00.02 [kworker/u9:3]
+15793 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+15615 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:1]
+15613 root          0 -20    0    0    0 S  0.0   0.0   0:00.03 [kworker/u9:1]
+14604 shell        20   0 4.6M 2.5M 2.1M S  0.0   0.2   0:01.03 logcat -v threadtime -b all
+13514 root         20   0    0    0    0 S  0.0   0.0   0:02.88 [kworker/1:1]
+11784 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11770 u0_a2        20   0 1.0G  77M  72M S  0.0   8.8   0:05.23 android.process.acore
+11750 system       20   0 1.0G  94M  89M S  0.0  10.6   0:01.17 com.jx.watchos.contact
+11593 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:5]
+11583 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+11554 system       20   0 1.0G  95M  91M S  0.0  10.8   0:12.81 com.divo.phone
+11478 root          0 -20    0    0    0 S  0.0   0.0   0:00.33 [kworker/u9:2]
+11109 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/u8:4]
+10971 root         20   0    0    0    0 S  0.0   0.0   0:00.05 [kworker/0:2]
+10923 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0]
+ 9840 root         20   0    0    0    0 S  0.0   0.0   0:00.25 [kworker/u8:2]
+ 9839 root         20   0    0    0    0 S  0.0   0.0   0:00.41 [kworker/u8:0]
+ 6348 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 6327 u0_a21       20   0 1.0G  93M  90M S  0.0  10.6   0:00.40 com.android.packageinstaller
+ 5904 u0_a82       20   0    0    0    0 Z  0.0   0.0   0:00.01 [ZIDThreadPoolEx]
+ 5857 system       20   0 1.0G  67M  62M S  0.0   7.6   0:03.73 com.abupdate.fota_demo_iot
+ 5447 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 5333 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 3133 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:0]
+ 3132 root         20   0    0    0    0 S  0.0   0.0   0:00.08 [kworker/0:0]
+ 1999 shell        20   0 852M  53M  49M S  0.0   6.0   0:00.89 app_process / com.genymobile.scrcpy.CleanUp AAAAAP////8CAAAA
+ 1979 shell        20   0 4.3M 2.2M 1.8M S  0.0   0.2   0:00.01 sh -c CLASSPATH=/data/local/tmp/scrcpy-server.jar app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000
+ 1911 u0_a2        20   0 1.0G  59M  57M S  0.0   6.7   0:00.13 com.android.dialer
+ 1859 root         20   0    0    0    0 S  0.0   0.0   0:01.09 [kworker/u8:1]
+ 1855 root          0 -20    0    0    0 S  0.0   0.0   0:02.65 [kworker/u9:0]
+ 1710 root         20   0    0    0    0 S  0.0   0.0   0:00.10 [kworker/3:2]
+ 1338 u0_a9        20   0 1.0G  74M  70M S  0.0   8.3   0:06.38 android.process.media
+ 1323 u0_a72       20   0 1.0G 101M  86M S  0.0  11.5   0:02.37 com.jx.inputmethod.pinyin
+ 1188 u0_a66       20   0 1.0G  50M  46M S  0.0   5.7   0:00.08 com.android.modemnotifier
+ 1169 system       20   0 1.0G  64M  60M S  0.0   7.3   0:00.21 com.spreadtrum.vce
+ 1163 system       20   0 1.0G  59M  54M S  0.0   6.7   0:00.19 com.sprd.applock
+ 1146 system       20   0 1.0G  57M  55M S  0.0   6.5   0:00.16 com.android.deskclock
+ 1124 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+ 1045 system       20   0 1.0G  70M  66M S  0.0   8.0   0:00.60 com.spreadtrum.vowifi
+ 1016 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  963 system       20   0 1.1G 127M 122M S  0.0  14.4   0:07.52 com.android.settings
+  906 wifi         20   0  11M 6.2M 5.9M S  0.0   0.7   0:00.27 wpa_supplicant -Dnl80211 -iwlan0 -c/data/misc/wifi/wpa_supplicant.conf -m/data/misc/wifi/p2p_supplicant.conf -e/data/misc/wifi/entropy.bin -g@android:wpa_wlan0 -dd
+  887 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [SPRDWL_TX_QUEUE]
+  767 radio        20   0 1.1G  99M  93M S  0.0  11.3   0:10.06 com.android.phone
+  613 root         20   0  12M 2.0M 2.0M S  0.0   0.2   0:00.06 cp_diskserver
+  612 radio        20   0  29M 4.3M 4.0M S  0.0   0.4   0:00.42 sprdrild
+  400 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  399 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_event]
+  349 root         20   0 4.3M 1.0M 928K S  0.0   0.1   0:00.42 sh /system/bin/ip_monitor.sh
+  348 root         20   0 4.4M 2.0M 1.9M S  0.0   0.2   0:00.06 ip monitor
+  337 root          0 -20    0    0    0 S  0.0   0.0   0:00.74 [kworker/1:1H]
+  333 root         20   0 5.1M 192K 188K S  0.0   0.0   0:00.00 srtd
+  323 system       20   0  19M 7.0M 6.9M S  0.0   0.8   0:00.69 connmgr
+  322 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f ns -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  321 system       20   0  13M 4.0M 3.9M S  0.0   0.4   0:00.13 android.hardware.biometrics.fingerprint@2.1-service
+  320 tombstoned   20   0 4.4M 1.9M 1.9M S  0.0   0.2   0:00.01 tombstoned
+  319 system       20   0  13M 4.5M 4.4M S  0.0   0.5   0:00.10 gatekeeperd /data/misc/gatekeeper
+  318 system       20   0  60M  12M  12M S  0.0   1.3   0:01.12 vendor.sprd.hardware.gnss@1.0-service
+  317 system       20   0  18M 5.1M 4.8M S  0.0   0.5   0:04.77 thermald
+  316 shell        20   0 8.6M 2.0M 1.9M S  0.0   0.2   0:00.02 slogmodem
+  315 system       20   0 8.3M 1.9M 1.9M S  0.0   0.2   0:00.02 refnotify
+  314 root         20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 ext_data
+  312 wifi         20   0  13M 4.3M 4.1M S  0.0   0.4   0:00.67 wificond
+  311 root         30  10  13M 3.7M 3.5M S  0.0   0.4   0:00.14 storaged
+  309 root         20   0    0    0    0 S  0.0   0.0   0:13.38 [kworker/1:2]
+  310 root         20   0 4.4M 1.8M 1.8M S  0.0   0.2   0:00.02 ju_ipsec_server
+  308 system       20   0 8.6M 2.8M 2.8M S  0.0   0.3   0:00.06 phasecheckserver
+  307 media        20   0  47M  11M  11M S  0.0   1.2   0:00.60 mediaserver
+  306 media        20   0  17M 7.1M 7.0M S  0.0   0.8   0:00.22 media.metrics diametrics
+  302 root          0 -20    0    0    0 S  0.0   0.0   0:00.66 [kworker/2:1H]
+  301 mediaex      20   0  46M  11M  11M S  0.0   1.2   0:00.43 media.extractor aextractor
+  300 media        20   0  13M 4.8M 4.8M S  0.0   0.5   0:00.12 mediadrmserver
+  299 root         20   0 6.7M 2.4M 2.4M S  0.0   0.2   0:00.03 log_service
+  298 keystore     20   0  14M 5.0M 4.7M S  0.0   0.5   0:00.15 keystore /data/misc/keystore
+  297 root         20   0 4.3M 1.8M 1.8M S  0.0   0.2   0:00.01 sh /system/bin/ip_monitor.sh
+  296 root         20   0  14M 4.1M 3.9M S  0.0   0.4   0:01.31 installd
+  295 root         20   0 4.5M 2.0M 2.0M S  0.0   0.2   0:00.02 ims_bridged
+  294 drm          20   0  38M  16M  16M S  0.0   1.7   0:00.82 drmserver
+  293 cameraserver 20   0  23M 8.6M 8.3M S  0.0   0.9   0:00.33 cameraserver
+  292 audioserver  20   0  32M 8.6M 8.1M S  0.0   0.9   0:00.68 audioserver
+  291 root         20   0 4.8M 1.9M 1.9M S  0.0   0.2   0:00.01 srtd
+  289 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 ip6tables-restore --noflush -w -v
+  288 root         20   0 4.6M 1.9M 1.8M S  0.0   0.2   0:00.05 iptables-restore --noflush -w -v
+  285 system       20   0 5.1M 2.0M 2.0M S  0.0   0.2   0:00.02 tsupplicant firmware
+  284 system       20   0 4.3M 1.6M 1.6M S  0.0   0.1   0:00.01 sprdstorageproxyd -f rpmb -d /dev/trusty-ipc-dev0 -p /data/sprd_ss -r /dev/block/mmcblk0rpmb
+  283 system       20   0 7.5M 1.7M 1.7M S  0.0   0.1   0:00.03 modemd
+  282 system       20   0  10M 1.7M 1.7M S  0.0   0.2   0:00.15 modem_control
+  281 system       20   0 6.4M 2.0M 1.8M S  0.0   0.2   0:00.08 gnss_download
+  280 root         20   0  13M 3.7M 3.7M S  0.0   0.4   0:00.10 thermalserviced
+  278 root         20   0  12M 3.2M 3.2M S  0.0   0.3   0:00.07 performancemanager
+  277 root         -2   0 5.8M 3.3M 2.2M S  0.0   0.3   0:00.11 lmkd
+  276 root          0 -20  29M 8.1M 8.1M S  0.0   0.9   0:00.56 engpc -p l -a /dev/ttyGS5 -d /dev/ttyGS6 -l /dev/ttyGS7
+  275 system       20   0 6.4M 1.6M 1.6M S  0.0   0.1   0:00.12 gpsd
+  274 root         20   0  11M 3.8M 3.6M S  0.0   0.4   0:00.34 healthd
+  273 system       20   0 7.2M 2.9M 2.7M S  0.0   0.3   0:00.05 vendor.sprd.hardware.thermal@1.0-service
+  272 system       20   0  16M 4.1M 3.8M S  0.0   0.4   0:02.39 vendor.sprd.hardware.power@2.0-service
+  271 system       20   0 8.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.log@1.0-service
+  270 system       20   0 7.1M 2.5M 2.5M S  0.0   0.2   0:00.04 vendor.sprd.hardware.ifaa@1.0-service
+  269 system       20   0  12M 2.8M 2.8M S  0.0   0.3   0:00.04 vendor.sprd.hardware.face@1.0-service
+  268 system       20   0 7.1M 2.7M 2.7M S  0.0   0.3   0:00.04 vendor.sprd.hardware.connmgr@1.0-service
+  267 root         20   0  10M 3.7M 3.4M S  0.0   0.4   0:01.37 android.hardware.wifi@1.0-service
+  266 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.04 android.hardware.vibrator@1.0-service
+  265 system       20   0 8.2M 2.8M 2.7M S  0.0   0.3   0:00.10 android.hardware.usb@1.1-service
+  263 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:01.48 android.hardware.memtrack@1.0-service
+  262 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.light@2.0-service
+  261 system       20   0 6.9M 2.7M 2.6M S  0.0   0.3   0:00.05 android.hardware.health@1.0-service
+  259 system       20   0  10M 3.4M 3.2M S  0.0   0.3   0:00.64 android.hardware.graphics.allocator@2.0-service
+  258 system       20   0 7.0M 2.4M 2.4M S  0.0   0.2   0:00.04 android.hardware.gatekeeper@1.0-service
+  257 system       20   0 6.9M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.dumpstate@1.0-service
+  256 media        20   0  13M 4.7M 4.7M S  0.0   0.5   0:00.12 android.hardware.drm@1.0-service
+  255 system       20   0 9.1M 2.8M 2.6M S  0.0   0.3   0:00.04 android.hardware.configstore@1.0-service
+  254 media        20   0  12M 3.8M 3.8M S  0.0   0.4   0:00.10 android.hardware.cas@1.0-service
+  253 cameraserver 20   0  37M 6.7M 6.7M S  0.0   0.7   0:00.28 android.hardware.camera.provider@2.4-service
+  252 bluetooth    20   0 7.0M 2.6M 2.6M S  0.0   0.3   0:00.03 android.hardware.bluetooth@1.0-service
+  251 audioserver  20   0  28M 6.0M 5.8M S  0.0   0.6   0:00.66 android.hardware.audio@2.0-service
+  250 system       20   0 6.9M 2.9M 2.7M S  0.0   0.3   0:00.08 android.hidl.allocator@1.0-service
+  247 root         20   0 0.9G 100M  96M S  0.0  11.4   0:02.81 zygote
+  246 root         20   0  31M 4.7M 4.4M S  0.0   0.5   0:01.06 netd
+  236 root         20   0  15M 4.8M 4.7M S  0.0   0.5   0:00.17 vold --blkid_context=u:r:blkid:s0 --blkid_untrusted_context=u:r:blkid_untrusted:s0 --fsck_context=u:r:fsck:s0 --fsck_untrusted_context=u:r:fsck_untrusted:s0
+  235 system       20   0 8.1M 3.0M 2.8M S  0.0   0.3   0:00.05 android.hardware.keymaster@3.0-service
+  234 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kauditd]
+  230 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kbase_job_fault]
+  226 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [gpu_dfs]
+  225 system       20   0 5.2M 2.0M 2.0M S  0.0   0.2   0:00.02 vndservicemanager /dev/vndbinder
+  224 system       20   0 8.4M 4.1M 3.7M S  0.0   0.4   0:00.38 hwservicemanager
+  221 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  220 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p1-]
+  218 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  217 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/mmcblk0p29]
+  213 root         20   0    0    0    0 S  0.0   0.0   0:00.19 [f2fs_gc-259:17]
+  212 root         20   0    0    0    0 S  0.0   0.0   0:00.74 [f2fs_discard-25]
+  211 root         20   0    0    0    0 S  0.0   0.0   0:01.70 [f2fs_flush-259:]
+  209 root          0 -20    0    0    0 S  0.0   0.0   0:00.81 [kworker/0:1H]
+  206 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [VserTestWq]
+  205 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [f_mtp]
+  200 root         20   0 2.8M 1.1M 900K S  0.0   0.1   0:00.41 ueventd
+  199 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  198 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-1-8]
+  197 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  196 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  195 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  194 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  193 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  192 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  190 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ext4-rsv-conver]
+  189 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [jbd2/dm-0-8]
+  186 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  185 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  184 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  183 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kverityd]
+  182 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  181 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kdmflush]
+  179 root          0 -20    0    0    0 S  0.0   0.0   0:00.67 [kworker/3:1H]
+  178 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_reg_dum]
+  177 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_detect_]
+  176 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [headset_button]
+  175 root         20   0    0    0    0 S  0.0   0.0   0:01.67 [kworker/2:3]
+  174 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:2]
+  173 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdbat_monitor]
+  172 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-12]
+  171 root         RT   0    0    0    0 S  0.0   0.0   0:00.04 [sbuf-3-11]
+  170 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-5]
+  169 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-25]
+  168 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-24]
+  167 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-20]
+  166 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-19]
+  165 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-18]
+  164 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-9]
+  163 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-8]
+  162 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sipx-5-7]
+  161 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [deferwq]
+  152 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-ctrl[5-3]]
+  151 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-3]
+  150 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [imsbr-data[5-2]]
+  149 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-2]
+  148 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [ipv6_addrconf]
+  146 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [binder]
+  144 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0rpmb]
+  143 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  142 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot1]
+  141 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  140 root         -2   0    0    0    0 S  0.0   0.0   0:00.00 [mmcqd/0boot0]
+  139 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  138 root         -2   0    0    0    0 S  0.0   0.0   0:30.46 [mmcqd/0]
+  137 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+  136 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [swcnblk-3-9]
+  134 root         RT   0    0    0    0 S  0.0   0.0   0:00.14 [swcnblk-3-7]
+  133 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-5]
+  132 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-4-4]
+  131 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-3-4]
+  130 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [sbuf-5-6]
+  129 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-21]
+  128 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-5-4]
+  127 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-6]
+  126 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sbuf-6-5]
+  125 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/69-20300000]
+  123 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sprdhotplug]
+  122 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [dm_bufio_cache]
+  121 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [watchdog_feeder]
+  117 root         20   0    0    0    0 S  0.0   0.0   0:00.72 [Betterlife_ts]
+  116 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [uether]
+  115 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-151]
+  114 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-16]
+  113 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-15]
+  112 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-14]
+  111 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-131]
+  110 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-17]
+  109 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-12]
+  108 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-11]
+  107 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-14]
+  106 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-10]
+  105 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  104 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [sblock-5-13]
+  103 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [saudio-5-10]
+  102 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [saudio]
+  101 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   67 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [fsnotify_mark]
+   66 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [vmstat]
+   65 root         20   0    0    0    0 S  0.0   0.0   0:03.23 [kswapd0]
+   46 root         RT   0    0    0    0 S  0.0   0.0   0:12.51 [cfinteractive]
+   45 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [sprdfgu_monitor]
+   44 root         RT   0    0    0    0 S  0.0   0.0   0:00.06 [irq/57-spi5.0]
+   43 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [cfg80211]
+   42 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [devfreq_wq]
+   41 root         20   0    0    0    0 D  0.0   0.0   0:00.00 [mbox-send-threa]
+   40 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [carveout_fb]
+   39 root         20   0    0    0    0 S  0.0   0.0   0:00.06 [system]
+   38 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi5]
+   37 root         20   0    0    0    0 S  0.0   0.0   0:00.94 [spi1]
+   36 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [spi0]
+   35 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [sprd_deep_print]
+   34 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kblockd]
+   33 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [bioset]
+   32 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [crypto]
+   31 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [writeback]
+   30 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/23-70900000]
+   29 root         RT   0    0    0    0 S  0.0   0.0   0:00.17 [irq/22-70800000]
+   28 root         RT   0    0    0    0 S  0.0   0.0   0:08.54 [irq/21-70700000]
+   26 root         RT   0    0    0    0 S  0.0   0.0   0:00.00 [irq/20-70500000]
+   25 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [perf]
+   24 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [suspend_sys_syn]
+   23 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [kdevtmpfs]
+   22 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/3:0H]
+   20 root         20   0    0    0    0 S  0.0   0.0   0:00.09 [ksoftirqd/3]
+   19 root         RT   0    0    0    0 S  0.0   0.0   0:00.01 [migration/3]
+   18 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/2:0H]
+   16 root         20   0    0    0    0 S  0.0   0.0   0:00.14 [ksoftirqd/2]
+   15 root         RT   0    0    0    0 S  0.0   0.0   0:00.02 [migration/2]
+   14 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/1:0H]
+   12 root         20   0    0    0    0 S  0.0   0.0   0:00.24 [ksoftirqd/1]
+   11 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/1]
+   10 root         RT   0    0    0    0 S  0.0   0.0   0:00.03 [migration/0]
+    9 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_bh]
+    8 root         20   0    0    0    0 S  0.0   0.0   0:00.00 [rcu_sched]
+    7 root         20   0    0    0    0 S  0.0   0.0   0:05.38 [rcu_preempt]
+    5 root          0 -20    0    0    0 S  0.0   0.0   0:00.00 [kworker/0:0H]
+    3 root         20   0    0    0    0 S  0.0   0.0   0:00.16 [ksoftirqd/0]
+    2 root         20   0    0    0    0 S  0.0   0.0   0:00.01 [kthreadd]
+    1 root         20   0 9.3M 1.4M 1.0M S  0.0   0.1   0:01.89 init
+
+
